@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Portfolio</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <section>
+        <div class="container">
+            <h2 class="section-title">Me Contacter</h2>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start;">
+                <!-- FORMULAIRE -->
+                <div>
+                    <h3 style="color: var(--primary-color); margin-bottom: 1.5rem; font-size: 1.3rem;">Envoyez-moi un message</h3>
+                    <form id="contactForm" onsubmit="validateForm(event)">
+                        <div class="form-group">
+                            <label for="nom">Nom *</label>
+                            <input type="text" id="nom" name="nom" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="entreprise">Entreprise / Organisation</label>
+                            <input type="text" id="entreprise" name="entreprise">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="objet">Objet du message</label>
+                            <input type="text" id="objet" name="objet" placeholder="Ex: Proposition d'emploi, Collaboration...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+
+                        <button type="submit" class="form-button">Envoyer le message</button>
+                    </form>
+                </div>
+
+                <!-- INFOS DE CONTACT -->
+                <div>
+                    <h3 style="color: var(--primary-color); margin-bottom: 1.5rem; font-size: 1.3rem;">Mes coordonnées</h3>
+                    
+                    <div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); margin-bottom: 1.5rem;">
+                        <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">📧 Email</h4>
+                        <p><a href="mailto:votre.email@example.com" style="color: #00d4ff; text-decoration: none;">votre.email@example.com</a></p>
+                    </div>
+
+                    <div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); margin-bottom: 1.5rem;">
+                        <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">📱 Téléphone</h4>
+                        <p><a href="tel:+33612345678" style="color: #00d4ff; text-decoration: none;">+33 6 12 34 56 78</a></p>
+                    </div>
+
+                    <div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); margin-bottom: 1.5rem;">
+                        <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">📍 Localisation</h4>
+                        <p>Ville, Code Postal<br>France</p>
+                    </div>
+
+                    <h4 style="color: var(--primary-color); margin-bottom: 1rem; margin-top: 2rem;">Réseaux Sociaux</h4>
+                    <div style="display: flex; gap: 1rem;">
+                        <a href="#" style="display: inline-block; width: 50px; height: 50px; background: linear-gradient(135deg, #1e3c72, #2a5298); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; transition: all 0.3s ease; font-weight: bold;">in</a>
+                        <a href="#" style="display: inline-block; width: 50px; height: 50px; background: linear-gradient(135deg, #1e3c72, #2a5298); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; transition: all 0.3s ease; font-weight: bold;">gh</a>
+                        <a href="#" style="display: inline-block; width: 50px; height: 50px; background: linear-gradient(135deg, #1e3c72, #2a5298); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; transition: all 0.3s ease; font-weight: bold;">tw</a>
+                    </div>
+
+                    <h4 style="color: var(--primary-color); margin-bottom: 1rem; margin-top: 2rem;">À propos</h4>
+                    <p style="color: #666; line-height: 1.8;">Je suis disponible pour discuter de collaborations, d'offres d'emploi, ou simplement pour échanger sur les technologies informatiques. N'hésitez pas à me contacter !</p>
+                </div>
+            </div>
+
+            <!-- SECTION BONUS -->
+            <div style="margin-top: 4rem; padding: 2rem; background: linear-gradient(135deg, rgba(30, 60, 114, 0.1), rgba(42, 82, 152, 0.1)); border-radius: 8px; border-left: 4px solid #00d4ff;">
+                <h3 style="color: var(--primary-color); margin-bottom: 1rem;">Disponibilités</h3>
+                <p style="margin-bottom: 0.5rem;"><strong>Statut :</strong> Étudiant en BTS SIO (2ème année)</p>
+                <p style="margin-bottom: 0.5rem;"><strong>Recherche :</strong> Stage / Alternance / Emploi en informatique</p>
+                <p style="margin-bottom: 0.5rem;"><strong>Domaines d'intérêt :</strong> Développement web, Infrastructure IT, Support utilisateur, Sécurité informatique</p>
+                <p style="margin-bottom: 0;"><strong>Permis :</strong> Permis B - Mobilité géographique possible</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Mon Portfolio. Tous droits réservés.</p>
+                <p>Étudiant BTS SIO</p>
+            </div>
+            <div class="social-links">
+                <a href="#" title="LinkedIn">in</a>
+                <a href="#" title="GitHub">gh</a>
+                <a href="#" title="Email">@</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

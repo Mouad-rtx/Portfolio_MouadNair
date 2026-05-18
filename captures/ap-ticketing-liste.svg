@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 720" role="img" aria-labelledby="title desc">
+  <title id="title">Liste des tickets GitLab</title>
+  <desc id="desc">Capture stylisee de la liste des tickets GitLab affectes a Mouad Nair.</desc>
+  <rect width="1050" height="720" fill="#f3f2fb"/>
+  <rect x="28" y="22" width="994" height="676" rx="18" fill="#fff"/>
+  <text x="58" y="72" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" fill="#111827">Elements de travail</text>
+  <text x="58" y="138" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#111827">Ouvrir</text>
+  <circle cx="128" cy="130" r="14" fill="#d9dce3"/>
+  <text x="123" y="137" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#4b5563">6</text>
+  <text x="174" y="138" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#111827">Ferme</text>
+  <circle cx="244" cy="130" r="14" fill="#d9dce3"/>
+  <text x="239" y="137" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#4b5563">0</text>
+  <text x="290" y="138" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#111827">Tous</text>
+  <circle cx="348" cy="130" r="14" fill="#d9dce3"/>
+  <text x="343" y="137" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#4b5563">6</text>
+  <line x1="44" y1="163" x2="376" y2="163" stroke="#d1d5db"/>
+  <line x1="44" y1="161" x2="160" y2="161" stroke="#2563eb" stroke-width="3"/>
+  <rect x="44" y="184" width="984" height="62" fill="#fafafa" stroke="#d1d5db"/>
+  <rect x="136" y="196" width="128" height="36" rx="4" fill="#e5e7eb"/>
+  <text x="150" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#111827">Cessionnaire</text>
+  <text x="282" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#374151">=</text>
+  <rect x="296" y="196" width="146" height="36" rx="4" fill="#e5e7eb"/>
+  <text x="320" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#111827">Mouad Nair</text>
+  <text x="450" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#374151">x</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="66" y="296" font-size="21" font-weight="700" fill="#20212b">Adaptation de la base de donnees</text>
+    <text x="64" y="324" font-size="16" fill="#4b5563">groupe-96795148/equipe-9#34 - cree15 octobre 2024par Elias Perez</text>
+    <rect x="568" y="299" width="58" height="28" rx="14" fill="#00a84f"/>
+    <text x="579" y="319" font-size="15" font-weight="700" fill="#fff">Valide</text>
+    <line x1="44" y1="350" x2="1028" y2="350" stroke="#e5e7eb"/>
+    <text x="66" y="402" font-size="21" font-weight="700" fill="#20212b">Nouveau besoin : Statistiques sur les types de salles</text>
+    <text x="64" y="430" font-size="16" fill="#4b5563">groupe-96795148/equipe-9#15 - cree7 novembre 2022par Elias Perez</text>
+    <rect x="572" y="405" width="58" height="28" rx="14" fill="#00a84f"/>
+    <text x="583" y="425" font-size="15" font-weight="700" fill="#fff">Valide</text>
+    <line x1="44" y1="456" x2="1028" y2="456" stroke="#e5e7eb"/>
+    <text x="66" y="508" font-size="21" font-weight="700" fill="#20212b">Reservation impossible</text>
+    <text x="64" y="536" font-size="16" fill="#4b5563">groupe-96795148/equipe-9#12 - cree7 novembre 2022par Elias Perez</text>
+    <rect x="572" y="511" width="58" height="28" rx="14" fill="#00a84f"/>
+    <text x="583" y="531" font-size="15" font-weight="700" fill="#fff">Valide</text>
+    <line x1="44" y1="562" x2="1028" y2="562" stroke="#e5e7eb"/>
+    <text x="66" y="614" font-size="21" font-weight="700" fill="#20212b">Erreurs dans les disponibilites</text>
+    <text x="64" y="642" font-size="16" fill="#4b5563">groupe-96795148/equipe-9#6 - cree7 novembre 2022par Elias Perez</text>
+    <rect x="572" y="617" width="58" height="28" rx="14" fill="#00a84f"/>
+    <text x="583" y="637" font-size="15" font-weight="700" fill="#fff">Valide</text>
+  </g>
+</svg>

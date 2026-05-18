@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolBackup8 - Developpement professionnel</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-detail-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; }
+        .back-link { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--accent-color); text-decoration: none; font-weight: 500; transition: var(--transition); }
+        .back-link:hover { gap: 1rem; text-shadow: 0 0 8px var(--accent-color); }
+        .detail-content { background-color: var(--bg-dark); padding: 2rem; border-radius: 8px; box-shadow: var(--shadow); margin-bottom: 2rem; }
+        .detail-description { line-height: 1.8; color: var(--text-dark); margin-bottom: 2rem; }
+        .detail-description p { margin-bottom: 1rem; text-align: justify; }
+        .detail-description ul { margin-left: 1.5rem; margin-bottom: 1rem; }
+        .evidence-grid { display: grid; grid-template-columns: 1fr; gap: 1.25rem; margin-top: 1.5rem; }
+        .screenshot-container { background-color: var(--bg-light); padding: 1rem; border-radius: 8px; border: 2px solid var(--border-color); text-align: center; overflow: hidden; }
+        .screenshot-container img { display: block; width: 100%; height: auto; background: white; border-radius: 4px; box-shadow: var(--shadow); }
+        .screenshot-title { margin-top: 1rem; font-weight: 600; color: var(--primary-color); font-size: 0.95rem; }
+    </style>
+</head>
+<body>
+    <header><div class="container"><div class="header-content"><a href="index.html" class="logo">Portfolio</a><nav><ul><li><a href="index.html">Accueil</a></li><li><a href="competences.html">Comp&eacute;tences</a></li><li><a href="projets.html">Projets</a></li><li><a href="contact.html">Contact</a></li></ul></nav></div></div></header>
+    <section><div class="container"><div class="project-detail-header"><a href="competences.html" class="back-link"><span>&larr;</span><span>Retour aux comp&eacute;tences</span></a></div><div class="detail-content">
+        <h2 style="color: var(--primary-color); margin-bottom: 1rem;">CoolBackup8 - Organiser son d&eacute;veloppement professionnel</h2>
+        <span class="project-type" style="display: inline-block; margin-bottom: 1.5rem;">Stage 2&egrave;me ann&eacute;e - Plugin WordPress</span>
+        <div class="detail-description">
+            <p>Cette page ne concerne que mon d&eacute;veloppement professionnel. Elle montre ma progression personnelle pendant le stage : prise de notes, recherche de solutions et apprentissage de bonnes pratiques.</p>
+            <ul><li>prise de notes techniques,</li><li>apprentissage de commandes utiles,</li><li>mont&eacute;e en comp&eacute;tence sur WordPress et PHP 8,</li><li>am&eacute;lioration de ma m&eacute;thode de correction.</li></ul>
+            <div class="evidence-grid">
+                <figure class="screenshot-container"><img src="captures/coolbackup8-notes.svg" alt="Notes techniques CoolBackup8"><figcaption class="screenshot-title">Notes techniques : apprentissage et organisation personnelle</figcaption></figure>
+            </div>
+        </div>
+        <div class="tech-stack"><span class="tech-tag">Veille WordPress</span><span class="tech-tag">PHP 8</span><span class="tech-tag">Documentation technique</span><span class="tech-tag">Débogage</span><span class="tech-tag">Organisation personnelle</span></div>
+    </div></div></section>
+    <footer><div class="container"><p>&copy; 2026 Mon Portfolio. Tous droits r&eacute;serv&eacute;s.</p></div></footer><script src="script.js"></script>
+</body>
+</html>

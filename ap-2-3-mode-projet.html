@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP 2.3 - Mode projet</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-detail-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; }
+        .back-link { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--accent-color); text-decoration: none; font-weight: 500; transition: var(--transition); }
+        .back-link:hover { gap: 1rem; text-shadow: 0 0 8px var(--accent-color); }
+        .detail-content { background-color: var(--bg-dark); padding: 2rem; border-radius: 8px; box-shadow: var(--shadow); margin-bottom: 2rem; }
+        .detail-description { line-height: 1.8; color: var(--text-dark); }
+        .detail-description p { margin-bottom: 1rem; text-align: justify; }
+        .detail-description ul { margin-left: 1.5rem; margin-bottom: 1rem; }
+        .project-table { width: 100%; border-collapse: collapse; margin-top: 1.5rem; font-size: 0.9rem; }
+        .project-table th, .project-table td { border: 1px solid var(--border-color); padding: 0.8rem; vertical-align: top; }
+        .project-table th { background-color: var(--primary-color); color: #fff; text-align: left; }
+        .project-table td:nth-child(2) { text-align: center; color: var(--accent-color); font-weight: 800; font-size: 1.1rem; }
+        .project-table td:nth-child(3) { color: var(--text-dark); }
+        .tech-details { margin-top: 2rem; padding-top: 2rem; border-top: 2px solid var(--border-color); }
+    </style>
+</head>
+<body>
+    <header><div class="container"><div class="header-content"><a href="index.html" class="logo">Portfolio</a><nav><ul><li><a href="index.html">Accueil</a></li><li><a href="competences.html">Compétences</a></li><li><a href="projets.html">Projets</a></li><li><a href="contact.html">Contact</a></li></ul></nav></div></div></header>
+    <section><div class="container"><div class="project-detail-header"><a href="competences.html" class="back-link"><span>&larr;</span><span>Retour aux compétences</span></a></div><div class="detail-content">
+        <h2 style="color: var(--primary-color); margin-bottom: 1rem;">AP 2.3 - Travailler en mode projet</h2>
+        <span class="project-type" style="display: inline-block; margin-bottom: 1.5rem;">Site statique M2L - BTS SIO 1ère année</span>
+        <div class="detail-description">
+            <p>Cette AP a été réalisée en groupe de deux étudiants. Avant de commencer le développement, nous avons dû organiser le projet en répartissant les tâches entre les membres du groupe. Cette organisation permettait de savoir qui travaillait sur quelles pages et d'éviter les doublons.</p>
+            <p>Dans cette répartition, j'ai pris en charge la page d'accueil, la page "Ligues" ainsi que le CSS associé à ces deux pages. Mon travail devait rester cohérent avec le reste du site afin que l'ensemble des pages garde une structure et une mise en page homogènes.</p>
+            <p>Pour organiser le travail, nous avions utilisé Wekan afin de suivre les tâches du projet. Je n'ai plus accès à ce tableau aujourd'hui, mais il nous servait à visualiser l'avancement et la répartition du travail. En complément, nous avons utilisé GitLab pour pousser le code, partager les fichiers du projet et regrouper le travail réalisé.</p>
+            <h4 style="color: var(--accent-color); margin-top: 1.5rem;">Organisation du projet</h4>
+            <ul>
+                <li>répartition des tâches entre les membres du groupe,</li>
+                <li>suivi de l'avancement du travail,</li>
+                <li>respect du délai et du cahier des charges,</li>
+                <li>suivi des tâches avec Wekan,</li>
+                <li>participation au travail collaboratif avec GitLab,</li>
+                <li>coordination entre mes pages et le reste du site.</li>
+            </ul>
+            <p>Cette compétence est validée car le projet ne consistait pas seulement à coder des pages. Il fallait aussi s'organiser en équipe, répartir le travail, suivre l'avancement avec Wekan et utiliser GitLab pour centraliser le code du projet.</p>
+            <h4 style="color: var(--accent-color); margin-top: 1.5rem;">Tableau de participation</h4>
+            <table class="project-table">
+                <thead>
+                    <tr>
+                        <th>Tâche du projet</th>
+                        <th>Fait</th>
+                        <th>Ce que j'ai réalisé</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Participer à la répartition des tâches</td>
+                        <td>x</td>
+                        <td>J'ai pris en charge la page d'accueil, la page "Ligues" et le CSS associé à ces deux pages.</td>
+                    </tr>
+                    <tr>
+                        <td>Respecter le cahier des charges</td>
+                        <td>x</td>
+                        <td>J'ai développé mes pages en respectant les éléments demandés : navigation, contenus, images, liens utiles et structure du site.</td>
+                    </tr>
+                    <tr>
+                        <td>Suivre l'avancement du projet avec Wekan</td>
+                        <td>x</td>
+                        <td>Nous utilisions Wekan pour visualiser les tâches à faire, en cours et terminées. Je n'ai plus accès au tableau aujourd'hui.</td>
+                    </tr>
+                    <tr>
+                        <td>Collaborer avec GitLab</td>
+                        <td>x</td>
+                        <td>Le projet était partagé sur GitLab afin de centraliser le code et de pousser les fichiers réalisés.</td>
+                    </tr>
+                    <tr>
+                        <td>Coordonner mon travail avec le reste du site</td>
+                        <td>x</td>
+                        <td>J'ai veillé à ce que mes pages gardent une cohérence avec les autres pages du site, notamment au niveau de la navigation et du style.</td>
+                    </tr>
+                    <tr>
+                        <td>Produire un livrable dans le délai demandé</td>
+                        <td>x</td>
+                        <td>Mes pages et leur mise en forme CSS faisaient partie du site statique final à rendre pour l'AP.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="tech-details"><h4>Outils et notions utilisés</h4><div class="tech-stack"><span class="tech-tag">Wekan</span><span class="tech-tag">GitLab</span><span class="tech-tag">Travail en équipe</span><span class="tech-tag">Répartition des tâches</span><span class="tech-tag">Cahier des charges</span><span class="tech-tag">Suivi d'avancement</span></div></div>
+    </div></div></section>
+    <footer><div class="container"><p>&copy; 2026 Mon Portfolio. Tous droits réservés.</p></div></footer><script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Relais - Service informatique</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-detail-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; }
+        .back-link { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--accent-color); text-decoration: none; font-weight: 500; transition: var(--transition); }
+        .back-link:hover { gap: 1rem; text-shadow: 0 0 8px var(--accent-color); }
+        .detail-content { background-color: var(--bg-dark); padding: 2rem; border-radius: 8px; box-shadow: var(--shadow); margin-bottom: 2rem; }
+        .detail-description { line-height: 1.8; color: var(--text-dark); }
+        .detail-description p { margin-bottom: 1rem; text-align: justify; }
+        .detail-description ul { margin-left: 1.5rem; margin-bottom: 1rem; }
+        .tech-details { margin-top: 2rem; padding-top: 2rem; border-top: 2px solid var(--border-color); }
+        .evidence-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin-top: 1.5rem; }
+        .screenshot-container { background-color: var(--bg-light); padding: 1rem; border-radius: 8px; border: 2px solid var(--border-color); text-align: center; overflow: hidden; }
+        .screenshot-container img { display: block; width: 100%; height: auto; background: white; border-radius: 4px; box-shadow: var(--shadow); }
+        .screenshot-container.wide { grid-column: 1 / -1; }
+        .screenshot-title { margin-top: 1rem; font-weight: 600; color: var(--primary-color); font-size: 0.95rem; }
+        @media (max-width: 900px) { .evidence-grid { grid-template-columns: 1fr; } .screenshot-container.wide { grid-column: auto; } }
+    </style>
+</head>
+<body>
+    <header><div class="container"><div class="header-content"><a href="index.html" class="logo">Portfolio</a><nav><ul><li><a href="index.html">Accueil</a></li><li><a href="competences.html">Compétences</a></li><li><a href="projets.html">Projets</a></li><li><a href="contact.html">Contact</a></li></ul></nav></div></div></header>
+    <section><div class="container"><div class="project-detail-header"><a href="competences.html" class="back-link"><span>&larr;</span><span>Retour aux compétences</span></a></div><div class="detail-content">
+        <h2 style="color: var(--primary-color); margin-bottom: 1rem;">Bio Relais - Mettre à disposition un service informatique</h2>
+        <span class="project-type" style="display: inline-block; margin-bottom: 1.5rem;">TP2 Bio Relais - PHP Objet / MySQL - Application en localhost</span>
+        <div class="detail-description">
+            <p>J'ai développé seul une application web fonctionnelle en local pour répondre au besoin de Bio Relais. L'application n'a pas été mise en production, mais elle permettait de tester les fonctionnalités prévues dans le cahier des charges depuis un environnement localhost.</p>
+            <p>Le service développé permettait de gérer plusieurs parcours utilisateurs : visiteur, client, producteur et responsable. Chaque profil disposait de fonctionnalités adaptées à son rôle dans l'organisation.</p>
+            <h4 style="color: var(--accent-color); margin-top: 1.5rem;">Service développé en local</h4>
+            <ul>
+                <li>application web en PHP objet structurée selon le modèle MVC,</li>
+                <li>base de données MySQL pour stocker les utilisateurs, producteurs, produits, ventes et commandes,</li>
+                <li>formulaires de création, modification et suppression,</li>
+                <li>gestion des commandes côté client,</li>
+                <li>gestion des produits et propositions côté producteur,</li>
+                <li>fonctionnalités de gestion côté responsable.</li>
+            </ul>
+            <p>Cette compétence est validée car j'ai préparé un service informatique complet et testable en local. Le projet m'a permis de relier une interface web, des traitements PHP, des formulaires et une base de données MySQL pour obtenir une application cohérente.</p>
+            <div class="evidence-grid">
+                <figure class="screenshot-container wide">
+                    <img src="captures/biorelais-bdd-mea.png" alt="MEA et tables MySQL de l'application Bio Relais">
+                    <figcaption class="screenshot-title">Base de données MySQL : tables nécessaires au service Bio Relais</figcaption>
+                </figure>
+                <figure class="screenshot-container">
+                    <img src="captures/biorelais-visiteur-accueil.png" alt="Accueil Bio Relais visible par un visiteur">
+                    <figcaption class="screenshot-title">Visiteur : consultation des informations générales de Bio Relais</figcaption>
+                </figure>
+                <figure class="screenshot-container">
+                    <img src="captures/biorelais-client-commande.png" alt="Pages client pour créer et suivre une commande Bio Relais">
+                    <figcaption class="screenshot-title">Client : création, modification et validation d'une commande</figcaption>
+                </figure>
+                <figure class="screenshot-container">
+                    <img src="captures/biorelais-producteur-parcours.png" alt="Pages producteur pour proposer des produits et consulter les commandes">
+                    <figcaption class="screenshot-title">Producteur : proposition de produits et consultation des commandes validées</figcaption>
+                </figure>
+                <figure class="screenshot-container">
+                    <img src="captures/biorelais-responsable-ventes-categories.png" alt="Pages responsable pour gérer les ventes et catégories Bio Relais">
+                    <figcaption class="screenshot-title">Responsable : gestion des ventes, des périodes de saisie et des catégories</figcaption>
+                </figure>
+                <figure class="screenshot-container">
+                    <img src="captures/biorelais-responsable-factures.png" alt="Factures clients et producteurs consultables par le responsable Bio Relais">
+                    <figcaption class="screenshot-title">Responsable : consultation des factures clients et producteurs</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="tech-details"><h4>Outils et notions utilisés</h4><div class="tech-stack"><span class="tech-tag">PHP Objet</span><span class="tech-tag">MVC</span><span class="tech-tag">MySQL</span><span class="tech-tag">CRUD</span><span class="tech-tag">Application locale</span></div></div>
+    </div></div></section>
+    <footer><div class="container"><p>&copy; 2026 Mon Portfolio. Tous droits réservés.</p></div></footer><script src="script.js"></script>
+</body>
+</html>

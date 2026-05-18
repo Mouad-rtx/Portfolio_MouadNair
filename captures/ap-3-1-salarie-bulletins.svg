@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1906 895" role="img" aria-labelledby="title desc">
+  <title id="title">Bulletins salarié M2L</title>
+  <desc id="desc">Capture stylisee de la page Mes bulletins de salaire pour un salarie du site M2L.</desc>
+  <rect width="1906" height="895" fill="#dff4fb"/>
+  <rect width="1906" height="264" fill="#5d4898"/>
+  <g fill="#06136f" opacity="0.9">
+    <circle cx="65" cy="112" r="27"/><rect x="45" y="140" width="40" height="105" rx="18"/>
+    <circle cx="250" cy="112" r="27"/><rect x="230" y="140" width="40" height="105" rx="18"/>
+    <circle cx="435" cy="112" r="27"/><rect x="415" y="140" width="40" height="105" rx="18"/>
+    <circle cx="620" cy="112" r="27"/><rect x="600" y="140" width="40" height="105" rx="18"/>
+    <circle cx="805" cy="112" r="27"/><rect x="785" y="140" width="40" height="105" rx="18"/>
+    <circle cx="990" cy="112" r="27"/><rect x="970" y="140" width="40" height="105" rx="18"/>
+    <circle cx="1175" cy="112" r="27"/><rect x="1155" y="140" width="40" height="105" rx="18"/>
+    <circle cx="1360" cy="112" r="27"/><rect x="1340" y="140" width="40" height="105" rx="18"/>
+    <circle cx="1545" cy="112" r="27"/><rect x="1525" y="140" width="40" height="105" rx="18"/>
+    <circle cx="1730" cy="112" r="27"/><rect x="1710" y="140" width="40" height="105" rx="18"/>
+  </g>
+  <text x="16" y="131" font-family="Segoe UI, Arial, sans-serif" font-size="64" fill="#ffffff">Maison des Ligues</text>
+  <rect y="264" width="1906" height="83" fill="#82cee6"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">
+    <text x="368" y="300">Accueil</text><text x="536" y="300">Services</text><text x="720" y="300">Locaux</text><text x="898" y="300">Ligues</text><text x="1052" y="300">Formation</text>
+    <text x="1264" y="300">Mes</text><text x="1240" y="328">contrats</text>
+  </g>
+  <rect x="1380" y="264" width="170" height="83" fill="#fffdee"/>
+  <text x="1440" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">Mes</text>
+  <text x="1411" y="328" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">bulletins</text>
+  <text x="1563" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Mon compte</text>
+  <text x="1738" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Déconnexion</text>
+  <text x="720" y="388" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="800" fill="#073858">Mes bulletins de salaire</text>
+  <text x="746" y="426" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#315b78">Consultez et téléchargez vos bulletins disponibles.</text>
+  <rect x="419" y="455" width="1067" height="106" rx="12" fill="#ffffff"/>
+  <rect x="419" y="455" width="1067" height="53" rx="12" fill="#cfeaf6"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="20">
+    <text x="435" y="489" font-weight="700" fill="#073858">Année</text><text x="675" y="489" font-weight="700" fill="#073858">Mois</text><text x="876" y="489" font-weight="700" fill="#073858">Contrat</text><text x="1144" y="489" font-weight="700" fill="#073858">Fichier</text>
+    <text x="435" y="542">2026</text><text x="675" y="542">Mai</text><text x="876" y="542">CDI</text><text x="1144" y="542" fill="#0068a8" text-decoration="underline">Télécharger</text>
+  </g>
+  <rect y="828" width="1906" height="67" fill="#75c8e0"/>
+</svg>

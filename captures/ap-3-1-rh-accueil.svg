@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1892 252" role="img" aria-labelledby="title desc">
+  <title id="title">Accueil RH M2L</title>
+  <desc id="desc">Capture stylisee de l'accueil du site M2L connecte en RH.</desc>
+  <rect width="1892" height="252" fill="#dff4fb"/>
+  <rect width="1892" height="198" fill="#5d4898"/>
+  <text x="14" y="65" font-family="Segoe UI, Arial, sans-serif" font-size="62" fill="#fff">Maison des Ligues</text>
+  <g fill="#06136f" opacity=".9">
+    <circle cx="95" cy="95" r="25"/><rect x="78" y="120" width="34" height="70" rx="16"/>
+    <circle cx="300" cy="95" r="25"/><rect x="283" y="120" width="34" height="70" rx="16"/>
+    <circle cx="505" cy="95" r="25"/><rect x="488" y="120" width="34" height="70" rx="16"/>
+    <circle cx="710" cy="95" r="25"/><rect x="693" y="120" width="34" height="70" rx="16"/>
+    <circle cx="915" cy="95" r="25"/><rect x="898" y="120" width="34" height="70" rx="16"/>
+    <circle cx="1120" cy="95" r="25"/><rect x="1103" y="120" width="34" height="70" rx="16"/>
+    <circle cx="1325" cy="95" r="25"/><rect x="1308" y="120" width="34" height="70" rx="16"/>
+    <circle cx="1530" cy="95" r="25"/><rect x="1513" y="120" width="34" height="70" rx="16"/>
+  </g>
+  <rect y="198" width="1892" height="54" fill="#82cee6"/>
+  <rect x="657" y="198" width="176" height="54" fill="#fffdee"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">
+    <text x="700" y="234">Accueil</text>
+    <text x="869" y="234" fill="#fff">Services</text>
+    <text x="1051" y="234" fill="#fff">Locaux</text>
+    <text x="1230" y="234" fill="#fff">Ligues</text>
+    <text x="1371" y="234" fill="#fff">Intervenants</text>
+    <text x="1548" y="234" fill="#fff">Mon compte</text>
+    <text x="1721" y="234" fill="#fff">Déconnexion</text>
+  </g>
+</svg>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP 2.3 - Site statique M2L</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-detail-header { margin-bottom: 2rem; }
+        .back-link { color: var(--accent-color); text-decoration: none; font-weight: 600; transition: var(--transition); }
+        .back-link:hover { color: var(--primary-color); }
+        .detail-content { background: white; padding: 2rem; border-radius: 8px; box-shadow: var(--shadow); }
+        .project-hero-detail { max-width: 940px; margin-bottom: 2.5rem; }
+        .project-hero-detail h2 { color: var(--primary-color); font-size: 2.2rem; line-height: 1.15; margin: 0.8rem 0 1rem; }
+        .project-lead { color: #555; font-size: 1.08rem; line-height: 1.8; margin-bottom: 1.3rem; }
+        .project-meta-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 2rem 0; }
+        .project-meta { background: var(--bg-light); border-left: 4px solid var(--accent-color); border-radius: 6px; padding: 1rem; }
+        .project-meta strong { display: block; color: var(--primary-color); margin-bottom: 0.35rem; }
+        .project-meta span { color: #666; }
+        .project-section { padding-top: 2rem; margin-top: 2rem; border-top: 1px solid var(--border-color); }
+        .project-section h3 { color: var(--primary-color); margin-bottom: 1rem; font-size: 1.45rem; }
+        .project-section p, .project-section li { color: #555; line-height: 1.8; }
+        .project-section ul { margin-left: 1.3rem; }
+        .project-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin-top: 1.3rem; }
+        .screenshot-container { background: var(--bg-light); padding: 1rem; border-radius: 8px; border: 1px solid var(--border-color); text-align: center; }
+        .screenshot-container img { width: 100%; display: block; border-radius: 4px; box-shadow: var(--shadow); }
+        .screenshot-title { margin-top: 0.8rem; color: var(--primary-color); font-weight: 600; }
+        .project-actions { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 1rem; }
+        @media (max-width: 900px) { .project-meta-grid, .project-gallery { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Portfolio</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="project-detail-header">
+                <a href="projets.html" class="back-link">&larr; Retour aux projets</a>
+            </div>
+
+            <article class="detail-content">
+                <div class="project-hero-detail">
+                    <span class="project-type">Projet scolaire - BTS SIO</span>
+                    <h2>AP 2.3 - Site statique de la Maison des Ligues</h2>
+                    <p class="project-lead">
+                        Ce projet consistait à créer un site vitrine statique pour présenter la Maison des Ligues de Lorraine. L'objectif était de proposer des pages simples, lisibles et consultables en ligne, avec une navigation claire entre l'accueil, les services, les locaux et les ligues sportives.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">Site statique</span>
+                        <span class="tech-tag">Navigation web</span>
+                        <span class="tech-tag">Intégration de contenus</span>
+                    </div>
+                </div>
+
+                <div class="project-meta-grid">
+                    <div class="project-meta"><strong>Contexte</strong><span>Projet de formation AP 2.3</span></div>
+                    <div class="project-meta"><strong>Objectif</strong><span>Créer un site vitrine consultable en ligne</span></div>
+                    <div class="project-meta"><strong>Accès</strong><span>Démo intégrée directement au portfolio</span></div>
+                </div>
+
+                <div class="project-section">
+                    <h3>Travail réalisé</h3>
+                    <ul>
+                        <li>Création des pages principales du site en HTML.</li>
+                        <li>Mise en forme avec des fichiers CSS séparés par page.</li>
+                        <li>Intégration des images, logos et visuels fournis.</li>
+                        <li>Création de liens vers les pages internes du site.</li>
+                        <li>Ajout d'une page dédiée aux ligues sportives avec des visuels cliquables.</li>
+                        <li>Organisation du contenu pour rendre la navigation plus claire.</li>
+                    </ul>
+                </div>
+
+                <div class="project-section">
+                    <h3>Captures du projet</h3>
+                    <div class="project-gallery">
+                        <figure class="screenshot-container">
+                            <img src="captures/ap-2-3-accueil-m2l.png" alt="Accueil du site statique M2L">
+                            <figcaption class="screenshot-title">Page d'accueil du site M2L</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/ap-2-3-ligues-m2l.png" alt="Page des ligues du site M2L">
+                            <figcaption class="screenshot-title">Page de présentation des ligues</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/ap-2-3-lien-fcmetz.png" alt="Redirection vers le site du FC Metz">
+                            <figcaption class="screenshot-title">Exemple de lien externe depuis une ligue</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/ap-2-3-code-liens-ligues.png" alt="Code HTML des liens de ligues">
+                            <figcaption class="screenshot-title">Code HTML des images cliquables</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="project-section">
+                    <h3>Ouvrir le projet</h3>
+                    <p>
+                        Comme ce projet est statique, je l'ai intégré directement dans le portfolio. Il pourra donc fonctionner même lorsque le portfolio sera publié en ligne.
+                    </p>
+                    <div class="project-actions">
+                        <a href="projets-demo/ap-2-3-site-statique/index.html" class="btn" target="_blank" rel="noopener noreferrer">Ouvrir la démo</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Mon Portfolio. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

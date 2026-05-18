@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1876 836" role="img" aria-labelledby="title desc">
+  <title id="title">Modification RH intervenant</title>
+  <desc id="desc">Capture stylisee du formulaire de modification d'un intervenant par le service RH.</desc>
+  <rect width="1876" height="836" fill="#dff4fb"/>
+  <rect width="1876" height="198" fill="#5d4898"/>
+  <text x="10" y="65" font-family="Segoe UI, Arial, sans-serif" font-size="62" fill="#fff">Maison des Ligues</text>
+  <rect y="198" width="1876" height="54" fill="#82cee6"/>
+  <rect x="1353" y="198" width="175" height="54" fill="#fffdee"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff">
+    <text x="719" y="233">Accueil</text><text x="887" y="233">Services</text><text x="1070" y="233">Locaux</text><text x="1248" y="233">Ligues</text><text x="1367" y="233" fill="#000">Intervenants</text><text x="1542" y="233">Mon compte</text><text x="1716" y="233">Déconnexion</text>
+  </g>
+  <rect x="724" y="252" width="432" height="575" fill="#f2f2f2"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="754" y="320" font-size="30" font-weight="800">Modifier l'intervenant #20</text>
+    <text x="724" y="359" font-size="20">Login :</text><rect x="724" y="369" width="207" height="23" fill="#fff" stroke="#777"/><text x="727" y="388" font-size="17">lbernard</text>
+    <text x="724" y="425" font-size="20">Nom :</text><rect x="724" y="436" width="207" height="23" fill="#fff" stroke="#777"/><text x="727" y="455" font-size="17">Bernard</text>
+    <text x="724" y="491" font-size="20">Prenom :</text><rect x="724" y="502" width="207" height="23" fill="#fff" stroke="#777"/><text x="727" y="521" font-size="17">Leo</text>
+    <text x="724" y="557" font-size="20">Mot de passe (laisser vide pour ne pas modifier) :</text><rect x="724" y="568" width="207" height="23" fill="#fff" stroke="#777"/>
+    <text x="724" y="623" font-size="20">Role :</text><rect x="724" y="633" width="199" height="23" fill="#fff" stroke="#777"/><text x="728" y="651" font-size="16">Volontaire / Benevole</text>
+    <text x="724" y="689" font-size="20">ID Ligue :</text><rect x="724" y="699" width="207" height="23" fill="#fff" stroke="#777"/><text x="727" y="718" font-size="17">4</text>
+    <text x="724" y="755" font-size="20">ID Club :</text><rect x="724" y="765" width="207" height="23" fill="#fff" stroke="#777"/><text x="727" y="784" font-size="17">0</text>
+    <rect x="724" y="804" width="85" height="23" fill="#f7f7f7" stroke="#777"/><text x="727" y="822" font-size="16">Enregistrer</text><text x="827" y="822" font-size="18" fill="#551a8b" text-decoration="underline">Annuler</text>
+  </g>
+</svg>

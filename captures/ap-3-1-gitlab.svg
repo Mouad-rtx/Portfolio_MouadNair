@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1903 913" role="img" aria-labelledby="title desc">
+  <title id="title">Depot GitLab AP 3.1</title>
+  <desc id="desc">Capture stylisee du depot GitLab du projet AP 3.1 M2L avec les fichiers, commits et informations du projet.</desc>
+  <rect width="1903" height="913" fill="#f4f1fb"/>
+  <rect width="1903" height="92" fill="#ffffff"/>
+  <path d="M14 112 L25 139 L36 112 L46 139 L25 153 Z" fill="#fc6d26"/>
+  <rect x="732" y="108" width="453" height="37" rx="18" fill="#ffffff" stroke="#c9cbd1"/>
+  <text x="770" y="132" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#667085">Rechercher ou acceder a...</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="16" y="190" font-size="19" font-weight="700" fill="#24364b">Projet</text>
+    <rect x="6" y="212" width="280" height="58" rx="8" fill="#d1def5"/>
+    <text x="52" y="236" font-size="18" fill="#24364b">AP3.1 M2L Site Dynamique</text>
+    <text x="52" y="260" font-size="18" font-weight="700" fill="#24364b">- ZakariaMouad</text>
+    <text x="50" y="343" font-size="18" fill="#4b5563">Elements de travail</text>
+    <text x="50" y="377" font-size="18" fill="#4b5563">Demandes de fusion</text>
+    <text x="50" y="444" font-size="18" fill="#4b5563">Gerer</text>
+    <text x="50" y="482" font-size="18" fill="#4b5563">Plan</text>
+    <text x="50" y="558" font-size="18" fill="#4b5563">Code</text>
+    <text x="50" y="668" font-size="18" fill="#4b5563">Deployer</text>
+    <rect x="296" y="156" width="1570" height="842" rx="18" fill="#ffffff"/>
+    <text x="311" y="186" font-size="16" fill="#4b5563">Zakaria ElGhammarti</text>
+    <text x="489" y="186" font-size="16" fill="#4b5563">/</text>
+    <text x="515" y="186" font-size="17" font-weight="700" fill="#24364b">AP3.1 M2L Site Dynamique - ZakariaMouad</text>
+    <rect x="311" y="236" width="1118" height="82" rx="8" fill="#fbfbfd" stroke="#d6d9e0"/>
+    <text x="331" y="272" font-size="20" font-weight="700" fill="#111827">Modifier le fichier README.md</text>
+    <text x="382" y="296" font-size="16" fill="#4b5563">Zakaria ElGhammarti a ecrit il y a 9 heures</text>
+    <rect x="1149" y="257" width="116" height="39" rx="6" fill="#ffffff" stroke="#c9cbd1"/>
+    <text x="1167" y="283" font-size="18" fill="#1f2937">c9f50127</text>
+    <rect x="1313" y="257" width="95" height="39" rx="8" fill="#ffffff" stroke="#c9cbd1"/>
+    <text x="1331" y="283" font-size="18" fill="#1f2937">Histoire</text>
+    <rect x="311" y="338" width="1118" height="51" rx="8" fill="#fbfbfd" stroke="#d6d9e0"/>
+    <text x="331" y="370" font-size="19" font-weight="700" fill="#111827">Nom</text>
+    <text x="704" y="370" font-size="19" font-weight="700" fill="#111827">Dernier commit</text>
+    <text x="1237" y="370" font-size="19" font-weight="700" fill="#111827">Derniere mise a jour</text>
+    <g font-size="18">
+      <rect x="311" y="389" width="1118" height="52" fill="#ffffff" stroke="#e5e7eb"/>
+      <text x="357" y="423" fill="#4b5563">m2l</text>
+      <text x="704" y="423" fill="#536174">Fix Membre actif to Salarie</text>
+      <text x="1318" y="423" fill="#536174">1 week ago</text>
+      <rect x="311" y="441" width="1118" height="52" fill="#ffffff" stroke="#e5e7eb"/>
+      <text x="357" y="475" fill="#4b5563">AP 3.1 - Site M2L Dynamique.docx</text>
+      <text x="704" y="475" fill="#536174">Add Nouveau Rep de l'ap fini</text>
+      <text x="1304" y="475" fill="#536174">3 weeks ago</text>
+      <rect x="311" y="493" width="1118" height="52" fill="#ffffff" stroke="#e5e7eb"/>
+      <text x="357" y="527" fill="#4b5563">MODELES_De_Fiches_de_Paie.xlsx</text>
+      <text x="704" y="527" fill="#536174">Add Nouveau Rep de l'ap fini</text>
+      <text x="1304" y="527" fill="#536174">3 weeks ago</text>
+      <rect x="311" y="545" width="1118" height="52" fill="#ffffff" stroke="#e5e7eb"/>
+      <text x="357" y="579" fill="#4b5563">README.md</text>
+      <text x="704" y="579" fill="#536174">Edit README.md</text>
+      <text x="1318" y="579" fill="#536174">9 hours ago</text>
+      <rect x="311" y="599" width="1118" height="52" fill="#e8f2ff" stroke="#8abafe"/>
+      <text x="357" y="632" fill="#4b5563">Ticket 12-10-2025.txt</text>
+      <text x="704" y="632" fill="#536174">Add Nouveau Rep de l'ap fini</text>
+      <text x="1304" y="632" fill="#536174">3 weeks ago</text>
+      <rect x="311" y="651" width="1118" height="52" fill="#ffffff" stroke="#e5e7eb"/>
+      <text x="357" y="684" fill="#4b5563">defaillance.txt</text>
+      <text x="704" y="684" fill="#536174">Add Nouveau Rep de l'ap fini</text>
+      <text x="1304" y="684" fill="#536174">3 weeks ago</text>
+      <rect x="311" y="703" width="1118" height="52" fill="#ffffff" stroke="#e5e7eb"/>
+      <text x="357" y="736" fill="#4b5563">git-AP3.1.docx</text>
+      <text x="704" y="736" fill="#536174">Add Nouveau Rep de l'ap fini</text>
+      <text x="1304" y="736" fill="#536174">3 weeks ago</text>
+    </g>
+    <text x="1479" y="246" font-size="18" font-weight="700" fill="#1f2937">Informations sur le projet</text>
+    <rect x="1480" y="263" width="232" height="9" rx="3" fill="#59639e"/>
+    <rect x="1712" y="263" width="65" height="9" rx="3" fill="#6b408f"/>
+    <rect x="1777" y="263" width="46" height="9" rx="3" fill="#8b8b8b"/>
+    <text x="1509" y="334" font-size="19" fill="#4b5563">8 Commits</text>
+    <text x="1509" y="376" font-size="19" fill="#4b5563">1 succursale</text>
+    <text x="1509" y="418" font-size="19" fill="#4b5563">0 Etiquettes</text>
+    <text x="1509" y="459" font-size="19" fill="#4b5563">57 KiB d'espace de stockage de</text>
+    <text x="1509" y="480" font-size="19" fill="#4b5563">projet</text>
+  </g>
+</svg>

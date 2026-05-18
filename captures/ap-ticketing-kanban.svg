@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1478 682" role="img" aria-labelledby="title desc">
+  <title id="title">Tableau Kanban GitLab</title>
+  <desc id="desc">Capture stylisee d'un tableau GitLab avec les colonnes A valider, Valide et Invalide.</desc>
+  <rect width="1478" height="682" fill="#f2f2f7"/>
+  <rect x="0" y="0" width="1478" height="70" fill="#ffffff"/>
+  <rect x="10" y="14" width="148" height="37" rx="8" fill="#ffffff" stroke="#c9cbd1"/>
+  <text x="24" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#3f3f46">Development</text>
+  <rect x="167" y="14" width="1163" height="37" rx="8" fill="#ffffff" stroke="#aeb4bd"/>
+  <text x="182" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#6b7280">Search</text>
+  <circle cx="1312" cy="33" r="9" fill="none" stroke="#374151" stroke-width="2"/>
+  <line x1="1319" y1="40" x2="1326" y2="47" stroke="#374151" stroke-width="2"/>
+  <line x1="0" y1="69" x2="1478" y2="69" stroke="#d1d5db"/>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="2" y="87" width="458" height="593" rx="6" fill="#e8e8ed"/>
+    <line x1="2" y1="89" x2="458" y2="89" stroke="#66a4dd" stroke-width="4"/>
+    <text x="19" y="118" font-size="25" fill="#1f2937">⌄</text>
+    <rect x="43" y="103" width="72" height="24" rx="12" fill="#6ca4da"/>
+    <text x="56" y="121" font-size="14" font-weight="700" fill="#ffffff">A valider</text>
+    <text x="353" y="119" font-size="16" fill="#6b7280">▱ 0</text>
+    <rect x="397" y="101" width="24" height="26" rx="5" fill="#ffffff" stroke="#b5bac3"/>
+    <text x="403" y="121" font-size="22" fill="#374151">+</text>
+    <rect x="424" y="101" width="26" height="26" rx="5" fill="#ffffff" stroke="#b5bac3"/>
+    <text x="429" y="121" font-size="19" fill="#374151">⚙</text>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="464" y="87" width="458" height="593" rx="6" fill="#e8e8ed"/>
+    <line x1="464" y1="89" x2="922" y2="89" stroke="#00b050" stroke-width="4"/>
+    <text x="481" y="118" font-size="25" fill="#1f2937">⌄</text>
+    <rect x="505" y="103" width="58" height="24" rx="12" fill="#00a84f"/>
+    <text x="516" y="121" font-size="14" font-weight="700" fill="#ffffff">Valide</text>
+    <text x="811" y="119" font-size="16" fill="#6b7280">▱ 18</text>
+    <rect x="856" y="101" width="26" height="26" rx="5" fill="#ffffff" stroke="#b5bac3"/>
+    <text x="862" y="121" font-size="22" fill="#374151">+</text>
+    <rect x="884" y="101" width="26" height="26" rx="5" fill="#ffffff" stroke="#b5bac3"/>
+    <text x="889" y="121" font-size="19" fill="#374151">⚙</text>
+    <rect x="473" y="148" width="416" height="78" rx="8" fill="#ffffff" stroke="#d7d9df"/>
+    <text x="487" y="177" font-size="17" font-weight="700" fill="#4b4b55">Erreurs lors de la creation de salles</text>
+    <text x="490" y="204" font-size="16" fill="#6b7280">▯ #1</text>
+    <rect x="473" y="237" width="416" height="78" rx="8" fill="#ffffff" stroke="#d7d9df"/>
+    <text x="487" y="266" font-size="17" font-weight="700" fill="#4b4b55">Adaptation de la base de donnees</text>
+    <text x="490" y="293" font-size="16" fill="#6b7280">▯ #34</text>
+    <rect x="473" y="326" width="416" height="78" rx="8" fill="#ffffff" stroke="#d7d9df"/>
+    <text x="487" y="355" font-size="17" font-weight="700" fill="#4b4b55">Erreurs lors de la creation/edition de ligues</text>
+    <text x="490" y="382" font-size="16" fill="#6b7280">▯ #2</text>
+    <rect x="473" y="415" width="416" height="78" rx="8" fill="#ffffff" stroke="#d7d9df"/>
+    <text x="487" y="444" font-size="17" font-weight="700" fill="#4b4b55">Nouveau besoin d'informations</text>
+    <text x="490" y="471" font-size="16" fill="#6b7280">▯ #32  ◇ v.1.1</text>
+    <rect x="473" y="504" width="416" height="105" rx="8" fill="#ffffff" stroke="#d7d9df"/>
+    <text x="487" y="535" font-size="17" font-weight="700" fill="#4b4b55">Erreurs lors de la creation/edition de</text>
+    <text x="487" y="556" font-size="17" font-weight="700" fill="#4b4b55">reservants</text>
+    <text x="490" y="586" font-size="16" fill="#6b7280">▯ #3</text>
+    <circle cx="852" cy="581" r="14" fill="#dc143c"/>
+    <rect x="903" y="167" width="12" height="253" rx="6" fill="#8b8d95"/>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="924" y="87" width="458" height="593" rx="6" fill="#e8e8ed"/>
+    <line x1="924" y1="89" x2="1382" y2="89" stroke="#065f46" stroke-width="4"/>
+    <text x="941" y="118" font-size="25" fill="#1f2937">⌄</text>
+    <rect x="965" y="103" width="65" height="24" rx="12" fill="#064e3b"/>
+    <text x="977" y="121" font-size="14" font-weight="700" fill="#ffffff">Invalide</text>
+    <text x="1275" y="119" font-size="16" fill="#6b7280">▱ 0</text>
+    <rect x="1316" y="101" width="26" height="26" rx="5" fill="#ffffff" stroke="#b5bac3"/>
+    <text x="1322" y="121" font-size="22" fill="#374151">+</text>
+    <rect x="1344" y="101" width="26" height="26" rx="5" fill="#ffffff" stroke="#b5bac3"/>
+    <text x="1349" y="121" font-size="19" fill="#374151">⚙</text>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="1390" y="87" width="122" height="593" rx="6" fill="#e8e8ed"/>
+    <text x="1406" y="120" font-size="24" fill="#1f2937">⌄</text>
+    <text x="1426" y="120" font-size="17" font-weight="700" fill="#1f2937">Closed</text>
+    <rect x="1396" y="148" width="115" height="115" rx="8" fill="#ffffff" stroke="#d7d9df"/>
+    <text x="1410" y="178" font-size="16" font-weight="700" fill="#4b4b55">Faute de</text>
+    <rect x="1410" y="190" width="58" height="24" rx="12" fill="#00a84f"/>
+    <text x="1421" y="208" font-size="14" font-weight="700" fill="#ffffff">Valide</text>
+    <text x="1412" y="239" font-size="15" fill="#6b7280">▯ #17</text>
+  </g>
+</svg>

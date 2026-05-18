@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mouad N.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-page">
+    <header class="home-header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Portfolio &mdash; Mouad N.</a>
+                <nav>
+                    <ul>
+                        <li><a class="active" href="index.html">Accueil</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="home-hero" id="accueil">
+            <div class="container home-hero-grid">
+                <div class="portrait-card" aria-label="Portrait de Mouad Nair">
+                    <img src="photo.jpg" alt="Portrait de Mouad Nair" onerror="this.style.display='none'; this.parentElement.classList.add('portrait-card--empty');">
+                </div>
+
+                <div class="home-hero-text">
+                    <h1>Bienvenue sur mon portfolio</h1>
+                    <p>
+                        Je suis <strong>Mouad Nair</strong>, étudiant en BTS SIO SLAM, passionné par le développement web et
+                        la création de solutions logicielles modernes.
+                    </p>
+                    <div class="home-actions">
+                        <a href="cv.pdf" class="btn home-btn" download>Télécharger mon CV</a>
+                        <a href="lettre-motivation.pdf" class="btn home-btn" download>Télécharger ma lettre de motivations</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="home-about" id="a-propos">
+            <div class="container">
+                <h2>À propos de moi</h2>
+                <div class="home-about-text">
+                    <p>
+                        Actuellement en formation BTS SIO, option SLAM (Solutions Logicielles et Applications Métiers),
+                        je développe des compétences solides en programmation, conception d'applications et gestion de
+                        bases de données. Mon parcours m'a permis d'acquérir une réelle maîtrise des technologies web
+                        modernes ainsi que des méthodologies de développement.
+                    </p>
+                    <p>
+                        Passionné depuis toujours par l'informatique, j'aime relever des défis techniques et imaginer des
+                        solutions innovantes et efficaces. Mon objectif est de devenir développeur Full Stack, capable de
+                        concevoir et de réaliser des applications complètes, performantes et adaptées aux besoins des
+                        utilisateurs.
+                    </p>
+                    <p>
+                        Au-delà de mes compétences techniques, je valorise le travail d'équipe, la communication et
+                        l'apprentissage continu. Je suis constamment à l'affût des nouvelles technologies et des meilleures
+                        pratiques du secteur.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="home-footer">
+        <div class="container">
+            <p>&copy; 2025 Mouad Nair - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

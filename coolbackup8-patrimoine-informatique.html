@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolBackup8 - Patrimoine informatique</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-detail-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; }
+        .back-link { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--accent-color); text-decoration: none; font-weight: 500; transition: var(--transition); }
+        .back-link:hover { gap: 1rem; text-shadow: 0 0 8px var(--accent-color); }
+        .detail-content { background-color: var(--bg-dark); padding: 2rem; border-radius: 8px; box-shadow: var(--shadow); margin-bottom: 2rem; }
+        .detail-description { line-height: 1.8; color: var(--text-dark); margin-bottom: 2rem; }
+        .detail-description p { margin-bottom: 1rem; text-align: justify; }
+        .detail-description ul { margin-left: 1.5rem; margin-bottom: 1rem; }
+        .evidence-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin-top: 1.5rem; }
+        .screenshot-container { background-color: var(--bg-light); padding: 1rem; border-radius: 8px; border: 2px solid var(--border-color); text-align: center; overflow: hidden; }
+        .screenshot-container img { display: block; width: 100%; height: auto; background: white; border-radius: 4px; box-shadow: var(--shadow); }
+        .screenshot-title { margin-top: 1rem; font-weight: 600; color: var(--primary-color); font-size: 0.95rem; }
+        @media (max-width: 768px) { .detail-content { padding: 1.5rem; } .evidence-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <header><div class="container"><div class="header-content"><a href="index.html" class="logo">Portfolio</a><nav><ul><li><a href="index.html">Accueil</a></li><li><a href="competences.html">Comp&eacute;tences</a></li><li><a href="projets.html">Projets</a></li><li><a href="contact.html">Contact</a></li></ul></nav></div></div></header>
+    <section><div class="container"><div class="project-detail-header"><a href="competences.html" class="back-link"><span>&larr;</span><span>Retour aux comp&eacute;tences</span></a></div><div class="detail-content">
+        <h2 style="color: var(--primary-color); margin-bottom: 1rem;">CoolBackup8 - G&eacute;rer le patrimoine informatique</h2>
+        <span class="project-type" style="display: inline-block; margin-bottom: 1.5rem;">Stage 2&egrave;me ann&eacute;e - Plugin WordPress</span>
+        <div class="detail-description">
+            <p>Cette page ne concerne que la gestion du patrimoine informatique. CoolBackup8 sert ici &agrave; prot&eacute;ger les ressources du site WordPress : fichiers, base de donn&eacute;es et archives de sauvegarde.</p>
+            <ul><li>cr&eacute;ation d'archives contenant les fichiers et la base,</li><li>inventaire des sauvegardes disponibles,</li><li>consultation du d&eacute;tail technique d'une sauvegarde,</li><li>planification des sauvegardes automatiques,</li><li>lancement de sauvegardes manuelles,</li><li>suivi de la taille et de la conservation des donn&eacute;es.</li></ul>
+            <div class="evidence-grid">
+                <figure class="screenshot-container"><img src="captures/coolbackup8-sauvegardes.svg" alt="Liste des sauvegardes disponibles dans CoolBackup8"><figcaption class="screenshot-title">Liste des sauvegardes : inventaire du patrimoine sauvegard&eacute;</figcaption></figure>
+                <figure class="screenshot-container"><img src="captures/coolbackup8-archive-reelle.png" alt="Archive ZIP CoolBackup8 contenant les fichiers uploads, backup-info.json et database.sql"><figcaption class="screenshot-title">Archive ZIP : fichiers du site et base de donn&eacute;es conserv&eacute;s</figcaption></figure>
+                <figure class="screenshot-container"><img src="captures/coolbackup8-prochaines-sauvegardes.png" alt="Prochaines sauvegardes quotidiennes, hebdomadaires et mensuelles dans CoolBackup8"><figcaption class="screenshot-title">Prochaines sauvegardes : suivi des &eacute;ch&eacute;ances de conservation</figcaption></figure>
+                <figure class="screenshot-container"><img src="captures/coolbackup8-parametrages-et-configuration.png" alt="Parametrages par defaut et configuration des sauvegardes automatiques dans CoolBackup8"><figcaption class="screenshot-title">Param&eacute;trages et configuration : fr&eacute;quence, heure et conservation</figcaption></figure>
+                <figure class="screenshot-container"><img src="captures/coolbackup8-sauvegarde-manuelle.png" alt="Action rapide pour creer une sauvegarde manuelle dans CoolBackup8"><figcaption class="screenshot-title">Sauvegarde manuelle : cr&eacute;ation imm&eacute;diate depuis les actions rapides</figcaption></figure>
+                <figure class="screenshot-container"><img src="captures/coolbackup8-detail-sauvegarde.png" alt="Fichier backup-info JSON contenant les details techniques d'une sauvegarde CoolBackup8"><figcaption class="screenshot-title">D&eacute;tail de sauvegarde : versions, date, site et param&egrave;tres conserv&eacute;s</figcaption></figure>
+            </div>
+        </div>
+        <div class="tech-stack"><span class="tech-tag">Gestion des sauvegardes</span><span class="tech-tag">Archives ZIP</span><span class="tech-tag">Base de donn&eacute;es</span><span class="tech-tag">Tra&ccedil;abilit&eacute;</span><span class="tech-tag">Conservation</span></div>
+    </div></div></section>
+    <footer><div class="container"><p>&copy; 2026 Mon Portfolio. Tous droits r&eacute;serv&eacute;s.</p></div></footer><script src="script.js"></script>
+</body>
+</html>

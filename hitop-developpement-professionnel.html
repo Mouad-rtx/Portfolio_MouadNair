@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HITOP - Developpement professionnel</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-detail-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; }
+        .back-link { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--accent-color); text-decoration: none; font-weight: 500; transition: var(--transition); }
+        .back-link:hover { gap: 1rem; text-shadow: 0 0 8px var(--accent-color); }
+        .detail-content { background-color: var(--bg-dark); padding: 2rem; border-radius: 8px; box-shadow: var(--shadow); margin-bottom: 2rem; }
+        .detail-description { line-height: 1.8; color: var(--text-dark); margin-bottom: 2rem; }
+        .detail-description p { margin-bottom: 1rem; text-align: justify; }
+        .detail-description ul { margin-left: 1.5rem; margin-bottom: 1rem; }
+        .evidence-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin-top: 1.5rem; }
+        .screenshot-container { background-color: var(--bg-light); padding: 1rem; border-radius: 8px; border: 2px solid var(--border-color); text-align: center; overflow: hidden; }
+        .screenshot-container img { display: block; width: 100%; height: auto; background: white; border-radius: 4px; box-shadow: var(--shadow); }
+        .screenshot-title { margin-top: 1rem; font-weight: 600; color: var(--primary-color); font-size: 0.95rem; }
+        .tech-details { margin-top: 2rem; padding-top: 2rem; border-top: 2px solid var(--border-color); }
+        @media (max-width: 768px) { .evidence-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <header><div class="container"><div class="header-content"><a href="index.html" class="logo">Portfolio</a><nav><ul><li><a href="index.html">Accueil</a></li><li><a href="competences.html">Comp&eacute;tences</a></li><li><a href="projets.html">Projets</a></li><li><a href="contact.html">Contact</a></li></ul></nav></div></div></header>
+    <section><div class="container"><div class="project-detail-header"><a href="competences.html" class="back-link"><span>&larr;</span><span>Retour aux comp&eacute;tences</span></a></div><div class="detail-content">
+        <h2 style="color: var(--primary-color); margin-bottom: 1rem;">HITOP - Organiser son d&eacute;veloppement professionnel</h2>
+        <span class="project-type" style="display: inline-block; margin-bottom: 1.5rem;">Stage 1&egrave;re ann&eacute;e</span>
+        <div class="detail-description">
+            <p>Cette comp&eacute;tence correspond &agrave; ma progression pendant le stage : recherche autonome, apprentissage du SEO, utilisation de Git, configuration Linux en visio et structuration progressive du code.</p>
+            <ul><li>veille sur le SEO et le d&eacute;veloppement web,</li><li>utilisation de Git pour suivre les versions,</li><li>optimisation du code avec des fichiers communs,</li><li>prise de notes et organisation personnelle chaque semaine.</li></ul>
+            <div class="evidence-grid">
+                <figure class="screenshot-container"><img src="captures/hitop-arborescence-projet.png" alt="Arborescence du projet HITOP avec fichiers suivis"><figcaption class="screenshot-title">Suivi du projet : fichiers organis&eacute;s et versionn&eacute;s</figcaption></figure>
+                <figure class="screenshot-container"><img src="captures/hitop-header-footer-optimises.png" alt="Fichiers header footer et CSS optimises"><figcaption class="screenshot-title">Progression technique : header/footer optimis&eacute;s</figcaption></figure>
+                <figure class="screenshot-container"><img src="captures/hitop-code-footer.png" alt="Code HTML et CSS du footer HITOP"><figcaption class="screenshot-title">Apprentissage : structuration et am&eacute;lioration du code</figcaption></figure>
+                <figure class="screenshot-container"><img src="captures/hitop-services-cartes-1.png" alt="Services SEO et creation de sites du site HITOP"><figcaption class="screenshot-title">Veille SEO : application des notions vues pendant le stage</figcaption></figure>
+            </div>
+        </div>
+        <div class="tech-details"><h4 style="color: var(--primary-color); margin-bottom: 1rem;">Comp&eacute;tences mobilis&eacute;es</h4><div class="tech-stack"><span class="tech-tag">Git</span><span class="tech-tag">Veille SEO</span><span class="tech-tag">Documentation technique</span><span class="tech-tag">Optimisation du code</span><span class="tech-tag">Organisation personnelle</span></div></div>
+    </div></div></section>
+    <footer><div class="container"><p>&copy; 2026 Mon Portfolio. Tous droits r&eacute;serv&eacute;s.</p></div></footer><script src="script.js"></script>
+</body>
+</html>

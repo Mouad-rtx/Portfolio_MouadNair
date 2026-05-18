@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP 1.2 - Mode Projet - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-detail-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .back-link:hover {
+            gap: 1rem;
+            text-shadow: 0 0 8px var(--accent-color);
+        }
+
+        .detail-content {
+            background-color: var(--bg-dark);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            margin-bottom: 2rem;
+        }
+
+        .detail-description {
+            line-height: 1.8;
+            color: var(--text-dark);
+            margin-bottom: 2rem;
+        }
+
+        .detail-description p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+
+        .detail-description ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .detail-description li {
+            margin-bottom: 0.5rem;
+        }
+
+        .tech-details {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 2px solid var(--border-color);
+        }
+
+        .tech-details h4,
+        .screenshots-section h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .screenshots-section {
+            margin-top: 2rem;
+        }
+
+        .screenshot-container {
+            background-color: var(--bg-light);
+            padding: 1rem;
+            border-radius: 8px;
+            border: 2px solid var(--border-color);
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .screenshot-container img {
+            display: block;
+            width: 100%;
+            height: auto;
+            background: white;
+            border-radius: 4px;
+            box-shadow: var(--shadow);
+        }
+
+        .screenshot-title {
+            margin-top: 1rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 768px) {
+            .detail-content {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Portfolio</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="project-detail-header">
+                <a href="competences.html" class="back-link">
+                    <span>&larr;</span>
+                    <span>Retour aux compétences</span>
+                </a>
+            </div>
+
+            <div class="detail-content">
+                <h2 style="color: var(--primary-color); margin-bottom: 1rem;">AP 1.2 - Travailler en mode projet</h2>
+                <span class="project-type" style="display: inline-block; margin-bottom: 1.5rem;">Projet Scolaire BTS SIO</span>
+
+                <div class="detail-description">
+                    <p>Dans le cadre de l'AP 1.2 du BTS SIO, le projet de maintenance et d'évolution de l'application de réservation de salles a été réalisé en équipe de 3.</p>
+
+                    <p>L'organisation du travail reposait sur une gestion de projet utilisant <strong>GitLab</strong> et un <strong>système de ticketing</strong> afin de répartir les tâches et suivre l'avancement du projet.</p>
+
+                    <p>Avant de commencer les développements, nous avons importé le projet sous GitLab, analysé les différents tickets puis attribué des labels permettant d'identifier :</p>
+                    <ul>
+                        <li>la catégorie des tâches,</li>
+                        <li>leur niveau d'avancement,</li>
+                        <li>ainsi que le membre de l'équipe responsable du ticket.</li>
+                    </ul>
+
+                    <p>Chaque ticket représentait une tâche précise à réaliser, comme la correction d'un dysfonctionnement, l'ajout d'un contrôle de saisie ou encore l'analyse d'une requête SQL.</p>
+
+                    <p>Tout au long du projet, j'ai participé :</p>
+                    <ul>
+                        <li>à la répartition des tâches,</li>
+                        <li>au suivi de l'avancement des tickets,</li>
+                        <li>au travail collaboratif avec les autres membres du groupe,</li>
+                        <li>ainsi qu'à la documentation des solutions mises en place via les commentaires GitLab.</li>
+                    </ul>
+
+                    <p>Lors des séances, nous déplacions les post-it dans le tableau GitLab selon leur état d'avancement : <strong>À valider</strong>, <strong>Invalidé</strong> ou <strong>Validé</strong>. Cela permettait de visualiser rapidement les tâches restantes, les corrections à reprendre et les tickets terminés.</p>
+
+                    <p>Cette organisation en mode projet nous a permis de mieux gérer le temps, de suivre l'évolution des corrections et d'assurer une bonne coordination entre les membres de l'équipe.</p>
+
+                    <p>Ce projet m'a permis de découvrir l'utilisation d'outils professionnels de gestion de projet et de comprendre l'importance du travail collaboratif dans le développement et la maintenance d'une application.</p>
+                </div>
+
+                <div class="tech-details">
+                    <h4>Outils et méthodes utilisés</h4>
+                    <div class="tech-stack">
+                        <span class="tech-tag">GitLab</span>
+                        <span class="tech-tag">Tableau Kanban</span>
+                        <span class="tech-tag">Suivi des tickets</span>
+                        <span class="tech-tag">Priorisation</span>
+                        <span class="tech-tag">Travail en équipe</span>
+                    </div>
+                </div>
+
+                <div class="screenshots-section">
+                    <h3>Capture du suivi de projet</h3>
+                    <figure class="screenshot-container">
+                        <img src="captures/ap-ticketing-kanban.svg" alt="Tableau GitLab avec les colonnes À valider, Validé et Invalidé">
+                        <figcaption class="screenshot-title">Déplacement des tickets selon leur état : À valider, Validé ou Invalidé</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Mon Portfolio. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

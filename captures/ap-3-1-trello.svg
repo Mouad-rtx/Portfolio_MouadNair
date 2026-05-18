@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1903 913" role="img" aria-labelledby="title desc">
+  <title id="title">Tableau Trello AP 3.1</title>
+  <desc id="desc">Capture stylisee du tableau Trello utilise pour suivre les taches du projet AP 3.1 M2L.</desc>
+  <rect width="1903" height="913" fill="#20324b"/>
+  <rect width="1903" height="70" fill="#1f1f24"/>
+  <text x="95" y="47" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#c9c9ce">Trello</text>
+  <rect x="410" y="20" width="976" height="40" rx="6" fill="#24262c" stroke="#6b7280"/>
+  <text x="445" y="47" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#aab2c0">Parcourir</text>
+  <rect x="1396" y="20" width="77" height="40" rx="6" fill="#68a2ff"/>
+  <text x="1412" y="47" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#0d1b2f">Creer</text>
+  <circle cx="1840" cy="40" r="16" fill="#6a4bc2"/>
+  <text x="1834" y="47" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">M</text>
+  <rect y="70" width="1903" height="130" fill="#35223f"/>
+  <text x="17" y="130" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#f3f4f6">Atlassian utilise des cookies pour ameliorer votre experience de navigation, effectuer des analyses et des recherches, et cibler la publicite.</text>
+  <rect x="1724" y="117" width="171" height="39" rx="5" fill="#3e2b48" stroke="#5b4566"/>
+  <text x="1764" y="143" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#e5e7eb">Accepter tout</text>
+  <rect y="201" width="1903" height="70" fill="#263447"/>
+  <text x="26" y="245" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#f9fafb">M2L_7</text>
+  <rect x="1719" y="216" width="132" height="40" rx="5" fill="#dbe7f7"/>
+  <text x="1764" y="243" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#20324b">Partager</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="10" y="286" width="341" height="111" rx="13" fill="#080d02"/>
+    <text x="36" y="324" font-size="18" font-weight="700" fill="#d2d2d2">A FAIRE</text>
+    <text x="282" y="324" font-size="18" fill="#b8b8b8">0</text>
+    <text x="36" y="373" font-size="18" fill="#b8b8b8">+  Ajouter une carte</text>
+    <rect x="366" y="286" width="341" height="216" rx="13" fill="#080d02"/>
+    <text x="391" y="324" font-size="18" font-weight="700" fill="#d2d2d2">EN COURS</text>
+    <text x="641" y="324" font-size="18" fill="#b8b8b8">1</text>
+    <rect x="376" y="346" width="321" height="95" rx="9" fill="#292b31"/>
+    <rect x="391" y="356" width="50" height="10" rx="5" fill="#72a7ff"/>
+    <rect x="446" y="356" width="50" height="10" rx="5" fill="#679328"/>
+    <text x="391" y="392" font-size="18" fill="#d7d7d7">Gestion des clubs et des ligues</text>
+    <circle cx="671" cy="416" r="15" fill="#f0441f"/>
+    <text x="660" y="422" font-size="12" font-weight="700" fill="#fff">TG</text>
+    <text x="391" y="478" font-size="18" fill="#b8b8b8">+  Ajouter une carte</text>
+    <rect x="720" y="286" width="341" height="191" rx="13" fill="#080d02"/>
+    <text x="746" y="324" font-size="18" font-weight="700" fill="#d2d2d2">FINI</text>
+    <text x="997" y="324" font-size="18" fill="#b8b8b8">1</text>
+    <rect x="730" y="346" width="321" height="70" rx="9" fill="#292b31"/>
+    <circle cx="756" cy="369" r="10" fill="#9ad53b"/>
+    <text x="774" y="377" font-size="18" fill="#b8b8b8">Suivi du projet sur GitLab et</text>
+    <text x="774" y="400" font-size="18" fill="#b8b8b8">Trello</text>
+    <text x="746" y="453" font-size="18" fill="#b8b8b8">+  Ajouter une carte</text>
+    <rect x="1075" y="286" width="341" height="617" rx="13" fill="#080d02"/>
+    <text x="1101" y="324" font-size="18" font-weight="700" fill="#d2d2d2">DELIVRE</text>
+    <text x="1348" y="324" font-size="18" fill="#b8b8b8">9</text>
+    <rect x="1087" y="346" width="305" height="105" rx="8" fill="#292b31"/>
+    <circle cx="1111" cy="369" r="10" fill="#9ad53b"/>
+    <text x="1129" y="376" font-size="18" fill="#b8b8b8">Creation de l'outil de gestion</text>
+    <text x="1129" y="400" font-size="18" fill="#b8b8b8">de projet</text>
+    <rect x="1102" y="411" width="62" height="30" rx="4" fill="#9ad53b"/>
+    <text x="1117" y="432" font-size="16" fill="#111827">3/3</text>
+    <rect x="1087" y="461" width="305" height="130" rx="8" fill="#292b31"/>
+    <circle cx="1111" cy="484" r="10" fill="#9ad53b"/>
+    <text x="1129" y="492" font-size="18" fill="#b8b8b8">Gestion des bulletins de</text>
+    <text x="1129" y="516" font-size="18" fill="#b8b8b8">salaire et contrat en compte</text>
+    <text x="1129" y="540" font-size="18" fill="#b8b8b8">salarie</text>
+    <rect x="1087" y="600" width="305" height="96" rx="8" fill="#292b31"/>
+    <rect x="1101" y="611" width="50" height="10" rx="5" fill="#72a7ff"/>
+    <circle cx="1111" cy="639" r="10" fill="#9ad53b"/>
+    <text x="1129" y="646" font-size="18" fill="#b8b8b8">Completer le MEA</text>
+    <rect x="1140" y="656" width="133" height="29" rx="4" fill="#9ad53b"/>
+    <text x="1162" y="677" font-size="16" fill="#111827">26 sept. 2025</text>
+    <rect x="1431" y="286" width="340" height="55" rx="11" fill="#667386"/>
+    <text x="1450" y="322" font-size="22" fill="#f8fafc">+ Ajouter une autre liste</text>
+  </g>
+</svg>

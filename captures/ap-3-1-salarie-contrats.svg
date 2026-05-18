@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1906 878" role="img" aria-labelledby="title desc">
+  <title id="title">Contrats salarié M2L</title>
+  <desc id="desc">Capture stylisee de la page Mes contrats pour un salarie du site M2L.</desc>
+  <rect width="1906" height="878" fill="#dff4fb"/>
+  <rect width="1906" height="295" fill="#5d4898"/>
+  <g fill="#06136f" opacity="0.9">
+    <circle cx="70" cy="124" r="28"/><rect x="50" y="152" width="40" height="120" rx="18"/>
+    <circle cx="250" cy="124" r="28"/><rect x="230" y="152" width="40" height="120" rx="18"/>
+    <circle cx="430" cy="124" r="28"/><rect x="410" y="152" width="40" height="120" rx="18"/>
+    <circle cx="610" cy="124" r="28"/><rect x="590" y="152" width="40" height="120" rx="18"/>
+    <circle cx="790" cy="124" r="28"/><rect x="770" y="152" width="40" height="120" rx="18"/>
+    <circle cx="970" cy="124" r="28"/><rect x="950" y="152" width="40" height="120" rx="18"/>
+    <circle cx="1150" cy="124" r="28"/><rect x="1130" y="152" width="40" height="120" rx="18"/>
+    <circle cx="1330" cy="124" r="28"/><rect x="1310" y="152" width="40" height="120" rx="18"/>
+    <circle cx="1510" cy="124" r="28"/><rect x="1490" y="152" width="40" height="120" rx="18"/>
+    <circle cx="1690" cy="124" r="28"/><rect x="1670" y="152" width="40" height="120" rx="18"/>
+  </g>
+  <text x="16" y="163" font-family="Segoe UI, Arial, sans-serif" font-size="64" fill="#ffffff">Maison des Ligues</text>
+  <rect y="296" width="1906" height="83" fill="#82cee6"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">
+    <text x="372" y="333">Accueil</text><text x="540" y="333">Services</text><text x="724" y="333">Locaux</text><text x="901" y="333">Ligues</text><text x="1056" y="333" fill="#6b7280">Formation</text>
+  </g>
+  <rect x="1204" y="296" width="176" height="83" fill="#fffdee"/>
+  <text x="1267" y="332" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">Mes</text>
+  <text x="1242" y="360" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">contrats</text>
+  <text x="1415" y="333" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Mes</text>
+  <text x="1417" y="360" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">bulletins</text>
+  <text x="1568" y="333" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Mon compte</text>
+  <text x="1742" y="333" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Déconnexion</text>
+  <text x="828" y="421" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="800" fill="#073858">Mes contrats</text>
+  <text x="768" y="458" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#315b78">Historique de vos contrats en cours et passés.</text>
+  <rect x="422" y="487" width="1067" height="213" rx="12" fill="#ffffff"/>
+  <rect x="422" y="487" width="1067" height="53" rx="12" fill="#cfeaf6"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="20">
+    <text x="438" y="522" font-weight="700" fill="#073858">Type</text><text x="588" y="522" font-weight="700" fill="#073858">Date début</text><text x="856" y="522" font-weight="700" fill="#073858">Date fin</text><text x="1119" y="522" font-weight="700" fill="#073858">Nombre d'heures</text>
+    <text x="438" y="575">CDI</text><text x="588" y="575">2026-01-01</text><text x="856" y="575">2026-12-31</text><text x="1119" y="575">35</text>
+    <line x1="422" y1="593" x2="1489" y2="593" stroke="#d7e5ec"/>
+    <text x="438" y="627">CDD</text><text x="588" y="627">2025-01-01</text><text x="856" y="627">2025-12-31</text><text x="1119" y="627">24</text>
+    <line x1="422" y1="645" x2="1489" y2="645" stroke="#d7e5ec"/>
+    <text x="438" y="680">cdd</text><text x="588" y="680">2000-11-07</text><text x="856" y="680">2005-01-13</text><text x="1119" y="680">35</text>
+  </g>
+  <rect y="860" width="1906" height="18" fill="#75c8e0"/>
+</svg>

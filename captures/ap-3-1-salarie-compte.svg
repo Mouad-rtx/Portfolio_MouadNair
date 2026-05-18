@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1906 809" role="img" aria-labelledby="title desc">
+  <title id="title">Compte salarié M2L</title>
+  <desc id="desc">Capture stylisee de la page Mon compte pour un salarie du site M2L.</desc>
+  <rect width="1906" height="809" fill="#dff4fb"/>
+  <rect width="1906" height="243" fill="#5d4898"/>
+  <text x="16" y="111" font-family="Segoe UI, Arial, sans-serif" font-size="64" fill="#ffffff">Maison des Ligues</text>
+  <g fill="#06136f" opacity="0.9">
+    <circle cx="95" cy="102" r="28"/><rect x="75" y="130" width="40" height="100" rx="18"/>
+    <circle cx="310" cy="102" r="28"/><rect x="290" y="130" width="40" height="100" rx="18"/>
+    <circle cx="525" cy="102" r="28"/><rect x="505" y="130" width="40" height="100" rx="18"/>
+    <circle cx="740" cy="102" r="28"/><rect x="720" y="130" width="40" height="100" rx="18"/>
+    <circle cx="955" cy="102" r="28"/><rect x="935" y="130" width="40" height="100" rx="18"/>
+    <circle cx="1170" cy="102" r="28"/><rect x="1150" y="130" width="40" height="100" rx="18"/>
+    <circle cx="1385" cy="102" r="28"/><rect x="1365" y="130" width="40" height="100" rx="18"/>
+    <circle cx="1600" cy="102" r="28"/><rect x="1580" y="130" width="40" height="100" rx="18"/>
+  </g>
+  <rect y="243" width="1906" height="83" fill="#82cee6"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">
+    <text x="372" y="279">Accueil</text><text x="540" y="279">Services</text><text x="724" y="279">Locaux</text><text x="901" y="279">Ligues</text><text x="1056" y="279">Formation</text>
+    <text x="1268" y="279">Mes</text><text x="1243" y="307">contrats</text><text x="1443" y="279">Mes</text><text x="1418" y="307">bulletins</text>
+  </g>
+  <rect x="1554" y="243" width="175" height="83" fill="#fffdee"/>
+  <text x="1568" y="279" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">Mon compte</text>
+  <text x="1743" y="279" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Déconnexion</text>
+  <circle cx="457" cy="365" r="35" fill="#d4effb" stroke="#b4d9ea"/>
+  <text x="445" y="374" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#073858">TL</text>
+  <text x="512" y="367" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="800" fill="#073858">Mon compte</text>
+  <text x="570" y="406" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#315b78">Titouan Legrand</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="422" y="431" width="527" height="78" rx="10" fill="#ffffff" stroke="#d9e3eb"/>
+    <rect x="963" y="431" width="527" height="78" rx="10" fill="#ffffff" stroke="#d9e3eb"/>
+    <rect x="422" y="523" width="527" height="78" rx="10" fill="#ffffff" stroke="#d9e3eb"/>
+    <rect x="963" y="523" width="527" height="78" rx="10" fill="#ffffff" stroke="#d9e3eb"/>
+    <rect x="422" y="614" width="527" height="78" rx="10" fill="#ffffff" stroke="#d9e3eb"/>
+    <rect x="963" y="614" width="527" height="78" rx="10" fill="#ffffff" stroke="#d9e3eb"/>
+    <text x="659" y="460" font-size="16" fill="#64748b">STATUT</text><text x="656" y="491" font-size="20" font-weight="700" fill="#073858">Salarié</text>
+    <text x="1180" y="460" font-size="16" fill="#64748b">IDENTIFIANT</text><text x="1188" y="491" font-size="20" font-weight="700" fill="#073858">tlegrand</text>
+    <text x="667" y="552" font-size="16" fill="#64748b">NOM</text><text x="649" y="583" font-size="20" font-weight="700" fill="#073858">Legrand</text>
+    <text x="1194" y="552" font-size="16" fill="#64748b">PRENOM</text><text x="1193" y="583" font-size="20" font-weight="700" fill="#073858">Titouan</text>
+    <text x="621" y="643" font-size="16" fill="#64748b">LIGUE RATTACHEE</text><text x="681" y="674" font-size="20" font-weight="700" fill="#073858">2</text>
+    <text x="1169" y="643" font-size="16" fill="#64748b">CLUB RATTACHE</text><text x="1204" y="674" font-size="20" font-weight="700" fill="#073858">C003</text>
+    <text x="879" y="735" font-size="20" font-weight="700" fill="#0068a8" text-decoration="underline">Retour à l'accueil</text>
+  </g>
+  <rect y="808" width="1906" height="1" fill="#75c8e0"/>
+</svg>

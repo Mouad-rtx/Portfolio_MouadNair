@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP Ticketing 1.2 - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-detail-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .back-link:hover {
+            gap: 1rem;
+        }
+
+        .back-link:hover {
+            text-shadow: 0 0 8px var(--accent-color);
+        }
+
+        .project-detail-title {
+            flex-grow: 1;
+        }
+
+        .detail-content {
+            background-color: var(--bg-dark);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            margin-bottom: 2rem;
+        }
+
+        .detail-description {
+            line-height: 1.8;
+            color: var(--text-dark);
+            margin-bottom: 2rem;
+        }
+
+        .detail-description p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+
+        .detail-description ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .detail-description li {
+            margin-bottom: 0.5rem;
+        }
+
+        .tech-details {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 2px solid var(--border-color);
+        }
+
+        .tech-details h4 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .tech-details p {
+            margin-bottom: 0.5rem;
+            color: var(--text-dark);
+        }
+
+        .screenshots {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .screenshot-container {
+            background-color: var(--bg-light);
+            padding: 1rem;
+            border-radius: 8px;
+            border: 2px solid var(--border-color);
+            text-align: center;
+        }
+
+        .screenshot-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: var(--shadow);
+        }
+
+        .screenshot-title {
+            margin-top: 1rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 0.95rem;
+        }
+
+        .screenshots-section {
+            margin-top: 2rem;
+        }
+
+        .screenshots-section h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .screenshot-container {
+            overflow: hidden;
+        }
+
+        .screenshot-container img {
+            display: block;
+            background: white;
+        }
+
+        @media (max-width: 768px) {
+            .detail-content {
+                padding: 1.5rem;
+            }
+
+            .screenshots {
+                grid-template-columns: 1fr;
+                gap: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Portfolio</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <section>
+        <div class="container">
+            <div class="project-detail-header">
+                <a href="competences.html" class="back-link">
+                    <span>←</span>
+                    <span>Retour aux compétences</span>
+                </a>
+            </div>
+
+            <div class="detail-content">
+                <h2 style="color: var(--primary-color); margin-bottom: 1rem;">AP Ticketing 1.2 - Maintenance Application de Réservation</h2>
+                <span class="project-type" style="display: inline-block; margin-bottom: 1.5rem;">Projet Scolaire BTS SIO</span>
+
+                <div class="detail-description">
+                    <p>Dans le cadre du projet AP 1.2 du BTS SIO, j'ai participé à la maintenance corrective et évolutive d'une application de réservation de salles pour la M2L.</p>
+
+                    <p>Le projet utilisait <strong>GitLab</strong> et un <strong>système de ticketing</strong> permettant de signaler les anomalies rencontrées lors des tests de l'application.</p>
+
+                    <h4 style="margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--accent-color);">Ma mission consistait principalement à prendre en charge des tickets liés :</h4>
+                    <ul>
+                        <li>aux dysfonctionnements de l'application,</li>
+                        <li>aux erreurs de validation des formulaires,</li>
+                        <li>aux problèmes de saisie utilisateur,</li>
+                        <li>ainsi qu'aux demandes d'évolution formulées par les utilisateurs.</li>
+                    </ul>
+
+                    <h4 style="margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--accent-color);">Pour chaque ticket, j'ai dû :</h4>
+                    <ul>
+                        <li>analyser le problème signalé,</li>
+                        <li>identifier la cause de l'erreur,</li>
+                        <li>corriger le dysfonctionnement dans l'application ou la base de données,</li>
+                        <li>tester la solution mise en place,</li>
+                        <li>commenter le ticket avec l'explication de la correction,</li>
+                        <li>puis clôturer le ticket sous GitLab.</li>
+                    </ul>
+
+                    <p style="margin-top: 1.5rem;">Ce travail m'a permis de développer des compétences en gestion d'incidents, en analyse de problèmes et en maintenance applicative, tout en utilisant un outil professionnel de suivi des tâches.</p>
+                </div>
+
+                <div class="tech-details">
+                    <h4>Technologies et Outils Utilisés</h4>
+                    <div class="tech-stack">
+                        <span class="tech-tag">GitLab</span>
+                        <span class="tech-tag">Système de ticketing</span>
+                        <span class="tech-tag">Correction de bugs</span>
+                        <span class="tech-tag">Tests fonctionnels</span>
+                        <span class="tech-tag">PHP / MySQL</span>
+                        <span class="tech-tag">Suivi des demandes</span>
+                    </div>
+                </div>
+
+                <div class="screenshots-section">
+                    <h3>Captures du ticketing GitLab</h3>
+                    <div class="screenshots">
+                        <figure class="screenshot-container">
+                            <img src="captures/ap-ticketing-liste.svg" alt="Liste des tickets GitLab validés pour le projet AP 1.2">
+                            <figcaption class="screenshot-title">Liste des tickets affectés et validés</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/ap-ticketing-detail.svg" alt="Détail d'un ticket GitLab avec commentaire de correction">
+                            <figcaption class="screenshot-title">Détail d'un ticket et commentaire de correction</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mouad Nair. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

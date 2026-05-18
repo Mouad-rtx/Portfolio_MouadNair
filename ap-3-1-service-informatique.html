@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP 3.1 - Service Informatique - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-detail-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .back-link:hover {
+            gap: 1rem;
+            text-shadow: 0 0 8px var(--accent-color);
+        }
+
+        .detail-content {
+            background-color: var(--bg-dark);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            margin-bottom: 2rem;
+        }
+
+        .detail-description {
+            line-height: 1.8;
+            color: var(--text-dark);
+            margin-bottom: 2rem;
+        }
+
+        .detail-description p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+
+        .detail-description ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .detail-description li {
+            margin-bottom: 0.5rem;
+        }
+
+        .tech-details {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 2px solid var(--border-color);
+        }
+
+        .tech-details h4,
+        .screenshots-section h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .screenshots-section {
+            margin-top: 2rem;
+        }
+
+        .screenshots {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .screenshot-container {
+            background-color: var(--bg-light);
+            padding: 1rem;
+            border-radius: 8px;
+            border: 2px solid var(--border-color);
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .screenshot-container img {
+            display: block;
+            width: 100%;
+            height: auto;
+            background: white;
+            border-radius: 4px;
+            box-shadow: var(--shadow);
+        }
+
+        .screenshot-title {
+            margin-top: 1rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 768px) {
+            .detail-content {
+                padding: 1.5rem;
+            }
+
+            .screenshots {
+                grid-template-columns: 1fr;
+                gap: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Portfolio</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="project-detail-header">
+                <a href="competences.html" class="back-link">
+                    <span>&larr;</span>
+                    <span>Retour aux compétences</span>
+                </a>
+            </div>
+
+            <div class="detail-content">
+                <h2 style="color: var(--primary-color); margin-bottom: 1rem;">AP 3.1 - Mettre à disposition des utilisateurs un service informatique</h2>
+                <span class="project-type" style="display: inline-block; margin-bottom: 1.5rem;">Projet Scolaire BTS SIO</span>
+
+                <div class="detail-description">
+                    <p>Dans le cadre du projet AP 3.1 du BTS SIO, j'ai développé un service web permettant la gestion des intervenants (salariés et bénévoles) et la consultation des bulletins de salaire pour la M2L.</p>
+
+                    <p>L'objectif était de mettre à disposition des utilisateurs un espace sécurisé leur permettant d'accéder à leurs informations personnelles en ligne.</p>
+
+                    <h4 style="margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--accent-color);">Ma mission consistait à :</h4>
+                    <ul>
+                        <li>développer le système d'authentification des utilisateurs,</li>
+                        <li>gérer les droits d'accès selon le statut de l'utilisateur,</li>
+                        <li>permettre l'upload des bulletins de salaire au format PDF,</li>
+                        <li>afficher les contrats et bulletins associés à chaque salarié,</li>
+                        <li>et sécuriser l'accès aux données personnelles.</li>
+                    </ul>
+
+                    <h4 style="margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--accent-color);">J'ai également réalisé plusieurs tests afin de vérifier :</h4>
+                    <ul>
+                        <li>le bon fonctionnement des formulaires,</li>
+                        <li>la sécurité des accès utilisateurs,</li>
+                        <li>l'affichage correct des documents PDF,</li>
+                        <li>et le bon fonctionnement des traitements liés à la base de données.</li>
+                    </ul>
+
+                    <p style="margin-top: 1.5rem;">Ce travail m'a permis de développer des compétences en déploiement de services web, en sécurisation des accès utilisateurs et en tests d'intégration d'une application web.</p>
+                </div>
+
+                <div class="tech-details">
+                    <h4>Technologies et outils utilisés</h4>
+                    <div class="tech-stack">
+                        <span class="tech-tag">PHP Objet</span>
+                        <span class="tech-tag">MVC</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">Authentification</span>
+                        <span class="tech-tag">Gestion des rôles</span>
+                        <span class="tech-tag">Upload PDF</span>
+                        <span class="tech-tag">Tests fonctionnels</span>
+                    </div>
+                </div>
+
+                <div class="screenshots-section">
+                    <h3>Captures du service mis à disposition</h3>
+                    <div class="screenshots">
+                        <figure class="screenshot-container">
+                            <img src="captures/ap-3-1-rh-accueil.svg" alt="Accueil du service web M2L connecté avec un compte RH">
+                            <figcaption class="screenshot-title">RH - Accueil du service</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/ap-3-1-rh-intervenants.svg" alt="Liste des intervenants visible par le service RH">
+                            <figcaption class="screenshot-title">RH - Liste des intervenants</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/ap-3-1-rh-contrats.svg" alt="Gestion des contrats d'un intervenant par le service RH">
+                            <figcaption class="screenshot-title">RH - Gestion des contrats</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/ap-3-1-rh-bulletins.svg" alt="Gestion des bulletins d'un intervenant par le service RH">
+                            <figcaption class="screenshot-title">RH - Upload des bulletins</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/ap-3-1-rh-modifier.svg" alt="Formulaire de modification d'un intervenant par le service RH">
+                            <figcaption class="screenshot-title">RH - Modification d'un intervenant</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/ap-3-1-rh-compte.svg" alt="Compte utilisateur RH dans le service web M2L">
+                            <figcaption class="screenshot-title">RH - Compte utilisateur</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/ap-3-1-salarie-compte.svg" alt="Compte salarié dans le service web M2L">
+                            <figcaption class="screenshot-title">Salarié - Accès sécurisé à son compte</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/ap-3-1-benevole-compte.svg" alt="Compte bénévole dans le service web M2L">
+                            <figcaption class="screenshot-title">Bénévole - Accès sécurisé à son compte</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Mon Portfolio. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

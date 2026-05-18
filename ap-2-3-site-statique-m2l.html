@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP 2.3 - Site statique M2L</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-detail-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; }
+        .back-link { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--accent-color); text-decoration: none; font-weight: 500; transition: var(--transition); }
+        .back-link:hover { gap: 1rem; text-shadow: 0 0 8px var(--accent-color); }
+        .detail-content { background-color: var(--bg-dark); padding: 2rem; border-radius: 8px; box-shadow: var(--shadow); margin-bottom: 2rem; }
+        .detail-description { line-height: 1.8; color: var(--text-dark); }
+        .detail-description p { margin-bottom: 1rem; text-align: justify; }
+        .detail-description ul { margin-left: 1.5rem; margin-bottom: 1rem; }
+        .competence-summary { width: 100%; border-collapse: collapse; margin: 1.5rem 0 2rem; font-size: 0.9rem; overflow: hidden; border-radius: 8px; }
+        .competence-summary th, .competence-summary td { padding: 0.85rem; border: 1px solid var(--border-color); vertical-align: top; }
+        .competence-summary th { background: var(--primary-color); color: #fff; text-align: left; }
+        .competence-summary td:nth-child(2) { text-align: center; color: var(--accent-color); font-weight: 800; font-size: 1.2rem; }
+        .competence-block { padding: 1.4rem; margin-top: 1.25rem; border: 2px solid var(--border-color); border-radius: 8px; background: var(--bg-light); }
+        .competence-block h3 { color: var(--primary-color); margin-bottom: 0.8rem; }
+        .portfolio-text { padding: 1.4rem; margin-top: 1.5rem; border-left: 4px solid var(--accent-color); background: var(--bg-light); border-radius: 6px; }
+        @media (max-width: 768px) { .competence-summary { font-size: 0.78rem; } .detail-content { padding: 1.25rem; } }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Portfolio</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="project-detail-header">
+                <a href="competences.html" class="back-link">
+                    <span>&larr;</span>
+                    <span>Retour aux compétences</span>
+                </a>
+            </div>
+
+            <div class="detail-content">
+                <h2 style="color: var(--primary-color); margin-bottom: 1rem;">AP 2.3 - Site Web statique M2L</h2>
+                <span class="project-type" style="display: inline-block; margin-bottom: 1.5rem;">Projet scolaire - BTS SIO 1ère année</span>
+
+                <div class="detail-description">
+                    <p>Dans le cadre de l'AP 2.3, j'ai participé à la création d'un site web statique pour la Maison des Ligues de Lorraine. Le but du projet était de réaliser un site vitrine en HTML5 et CSS3 afin de présenter l'organisation, ses activités et les différentes ligues, sans utiliser de base de données ni de langage serveur.</p>
+                    <p>Mon travail personnel a principalement porté sur la création de la page d'accueil et de la page "Ligues". J'ai développé la structure HTML de ces pages, réalisé leur mise en forme en CSS, organisé les différentes sections et intégré les contenus fournis dans le cahier des charges.</p>
+                    <p>J'ai également mis en place une partie du design du site, la navigation entre les pages, l'intégration d'images, les liens vers les réseaux sociaux et les sections "Comment venir à nous" et "Nous contacter". Ce travail m'a permis de produire des pages claires, lisibles et adaptées à un site vitrine institutionnel.</p>
+
+                    <h3 style="color: var(--primary-color); margin-top: 2rem;">Tableau des compétences validées</h3>
+                    <table class="competence-summary">
+                        <thead>
+                            <tr>
+                                <th>Compétence BTS SIO</th>
+                                <th>Croix</th>
+                                <th>Justification</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Gérer le patrimoine informatique</td>
+                                <td></td>
+                                <td>Non retenue pour cette AP : le projet portait surtout sur la création d'un site statique, pas sur l'inventaire ou l'administration d'un patrimoine informatique.</td>
+                            </tr>
+                            <tr>
+                                <td>Répondre aux incidents et aux demandes d'assistance et d'évolution</td>
+                                <td></td>
+                                <td>Non retenue : aucune correction d'incident utilisateur ou demande d'assistance n'est l'activité principale décrite.</td>
+                            </tr>
+                            <tr>
+                                <td>Développer la présence en ligne de l'organisation</td>
+                                <td>x</td>
+                                <td>Création de la page d'accueil et de la page "Ligues" pour présenter la M2L, ses activités, ses informations de contact et ses liens vers les réseaux sociaux.</td>
+                            </tr>
+                            <tr>
+                                <td>Travailler en mode projet</td>
+                                <td>x</td>
+                                <td>Participation à un projet réalisé en groupe, avec répartition des tâches, suivi de l'avancement et utilisation de GitLab pour partager le code.</td>
+                            </tr>
+                            <tr>
+                                <td>Mettre à disposition des utilisateurs un service informatique</td>
+                                <td>x</td>
+                                <td>Réalisation de pages web consultables par les visiteurs, avec navigation, contenus, images, liens externes et sections pratiques.</td>
+                            </tr>
+                            <tr>
+                                <td>Organiser son développement professionnel</td>
+                                <td></td>
+                                <td>Non retenue : l'AP a permis de progresser, mais ce n'était pas une action de veille ou de formation personnelle structurée.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div id="presence" class="competence-block">
+                        <h3>Développer la présence en ligne de l'organisation</h3>
+                        <p>Cette compétence est validée car l'objectif principal du projet était de développer la visibilité de la M2L à travers un site vitrine. J'ai contribué à cette présence en ligne en créant la page d'accueil, qui présente l'organisation, ainsi que la page "Ligues", qui permet de mettre en avant les ligues sportives et leurs informations.</p>
+                        <p>J'ai utilisé HTML5 pour structurer les contenus de manière claire et CSS3 pour travailler l'apparence du site. J'ai mis en place une mise en page cohérente, intégré des images, ajouté les liens vers Facebook et Instagram et créé des sections utiles pour les visiteurs, notamment "Comment venir à nous" et "Nous contacter".</p>
+                        <p>Ce travail montre ma capacité à créer des pages web statiques qui répondent à un besoin de communication externe et qui permettent à une organisation d'être mieux présentée sur internet.</p>
+                    </div>
+
+                    <div id="mode-projet" class="competence-block">
+                        <h3>Travailler en mode projet</h3>
+                        <p>Cette compétence est validée car l'AP a été réalisée en groupe. Le projet nécessitait une organisation du travail, une répartition des tâches et un suivi de l'avancement pour respecter le délai demandé. De mon côté, j'ai pris en charge la réalisation de la page d'accueil, de la page "Ligues" et du CSS associé à ces pages.</p>
+                        <p>L'utilisation de GitLab a permis de travailler de manière collaborative, de partager les fichiers du projet et de suivre les modifications du code. Cette organisation m'a appris à produire un travail compatible avec celui de mon binôme, à respecter un cahier des charges et à avancer dans un projet commun.</p>
+                    </div>
+
+                    <div id="service" class="competence-block">
+                        <h3>Mettre à disposition des utilisateurs un service informatique</h3>
+                        <p>Cette compétence est validée car le projet avait pour résultat un site web consultable par des utilisateurs. Les pages que j'ai réalisées devaient être lisibles, organisées et simples à parcourir. J'ai donc travaillé sur la navigation entre les pages, l'organisation des sections, l'intégration des images et la mise en page des contenus.</p>
+                        <p>Les sections "Comment venir à nous" et "Nous contacter" permettent aux visiteurs d'accéder rapidement aux informations importantes. Les liens vers les réseaux sociaux facilitent aussi l'accès aux moyens de communication de la M2L. Le site constitue donc un service web simple, mis à disposition pour informer les visiteurs.</p>
+                    </div>
+
+                    <h3 style="color: var(--primary-color); margin-top: 2rem;">Outils, technologies et notions utilisées</h3>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">GitLab</span>
+                        <span class="tech-tag">Navigation web</span>
+                        <span class="tech-tag">Mise en page</span>
+                        <span class="tech-tag">Intégration de contenus</span>
+                        <span class="tech-tag">Site statique</span>
+                    </div>
+
+                    <div class="portfolio-text">
+                        <h3 style="color: var(--primary-color); margin-bottom: 0.8rem;">Texte réutilisable dans le portfolio</h3>
+                        <p>Dans le cadre de l'AP 2.3, j'ai participé à la création d'un site web statique pour la Maison des Ligues de Lorraine. Mon rôle a principalement consisté à développer la page d'accueil et la page "Ligues" en HTML5 et CSS3.</p>
+                        <p>J'ai réalisé la structure des pages, la mise en page, le design et le CSS associé. J'ai utilisé Flexbox et CSS Grid pour organiser les éléments, aligner les contenus et obtenir une présentation claire. J'ai également intégré des images, des textes, les liens vers les réseaux sociaux ainsi que les sections "Comment venir à nous" et "Nous contacter".</p>
+                        <p>J'ai participé au travail collaboratif du projet avec GitLab, ce qui m'a permis de mieux comprendre l'organisation d'un projet web en équipe. Cette AP m'a appris à respecter un cahier des charges, à structurer correctement des pages HTML, à améliorer ma maîtrise du CSS et à créer un site vitrine simple, lisible et adapté aux besoins d'une organisation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer><div class="container"><p>&copy; 2026 Mon Portfolio. Tous droits réservés.</p></div></footer>
+    <script src="script.js"></script>
+</body>
+</html>

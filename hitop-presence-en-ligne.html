@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet HITOP - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-detail-header { margin-bottom: 2rem; }
+        .back-link { color: var(--accent-color); text-decoration: none; font-weight: 600; transition: var(--transition); }
+        .back-link:hover { color: var(--primary-color); }
+        .detail-content { background: white; padding: 2rem; border-radius: 8px; box-shadow: var(--shadow); }
+        .project-hero-detail { max-width: 920px; margin-bottom: 2.5rem; }
+        .project-hero-detail h2 { color: var(--primary-color); font-size: 2.2rem; line-height: 1.15; margin: 0.8rem 0 1rem; }
+        .project-lead { color: #555; font-size: 1.08rem; line-height: 1.8; margin-bottom: 1.3rem; }
+        .project-meta-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 2rem 0; }
+        .project-meta { background: var(--bg-light); border-left: 4px solid var(--accent-color); border-radius: 6px; padding: 1rem; }
+        .project-meta strong { display: block; color: var(--primary-color); margin-bottom: 0.35rem; }
+        .project-meta span { color: #666; }
+        .project-section { padding-top: 2rem; margin-top: 2rem; border-top: 1px solid var(--border-color); }
+        .project-section h3 { color: var(--primary-color); margin-bottom: 1rem; font-size: 1.45rem; }
+        .project-section p, .project-section li { color: #555; line-height: 1.8; }
+        .project-section ul { margin-left: 1.3rem; }
+        .project-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin-top: 1.3rem; }
+        .project-gallery-wide { grid-template-columns: 1fr; }
+        .screenshot-container { background: var(--bg-light); padding: 1rem; border-radius: 8px; border: 1px solid var(--border-color); text-align: center; }
+        .screenshot-container img { width: 100%; display: block; border-radius: 4px; box-shadow: var(--shadow); }
+        .screenshot-title { margin-top: 0.8rem; color: var(--primary-color); font-weight: 600; }
+        .project-actions { margin-top: 2rem; display: flex; flex-wrap: wrap; gap: 1rem; }
+        @media (max-width: 900px) {
+            .project-meta-grid, .project-gallery { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Portfolio</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="project-detail-header">
+                <a href="projets.html" class="back-link">&larr; Retour aux projets</a>
+            </div>
+
+            <article class="detail-content">
+                <div class="project-hero-detail">
+                    <div>
+                        <span class="project-type">Stage 1ère année - HITOP</span>
+                        <h2>Refonte d'un site vitrine et amélioration de la présence en ligne</h2>
+                        <p class="project-lead">
+                            Durant mon stage chez HITOP, j'ai travaillé sur l'amélioration du site vitrine de l'entreprise. L'objectif était de rendre la présentation plus professionnelle, de mieux guider les visiteurs vers les services proposés et de renforcer la crédibilité du site grâce à une interface plus claire.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">SEO</span>
+                            <span class="tech-tag">Intégration responsive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-meta-grid">
+                    <div class="project-meta"><strong>Contexte</strong><span>Stage dans une entreprise spécialisée dans le web</span></div>
+                    <div class="project-meta"><strong>Objectif</strong><span>Moderniser l'image du site et améliorer la conversion</span></div>
+                    <div class="project-meta"><strong>Livrables</strong><span>Pages refondues, sections optimisées et contenus mieux structurés</span></div>
+                </div>
+
+                <div class="project-section">
+                    <h3>Contexte du projet</h3>
+                    <p>
+                        HITOP accompagne des entreprises dans la création de sites internet, le référencement naturel et la mise en place d'une présence digitale. Le site devait présenter clairement les services, rassurer les visiteurs et faciliter la prise de contact. Mon rôle a été d'intervenir sur des pages existantes et sur de nouvelles sections afin d'améliorer la lisibilité, l'organisation des informations et l'aspect visuel général.
+                    </p>
+                    <p>
+                        Le travail portait autant sur la forme que sur le fond : structure HTML, mise en page CSS, adaptation responsive, hiérarchisation des titres, mise en valeur des offres et amélioration des blocs destinés à inciter l'utilisateur à demander un devis.
+                    </p>
+                </div>
+
+                <div class="project-section">
+                    <h3>Ce que j'ai réalisé</h3>
+                    <ul>
+                        <li>Refonte de la page d'accueil pour obtenir une entrée plus moderne et plus lisible.</li>
+                        <li>Création et amélioration de blocs de présentation pour les services, les offres et les appels à l'action.</li>
+                        <li>Optimisation de sections importantes comme les tarifs, les témoignages clients et le footer de contact.</li>
+                        <li>Correction d'éléments visuels pour obtenir une interface plus homogène entre les pages.</li>
+                        <li>Adaptation responsive afin de conserver une navigation propre sur ordinateur et mobile.</li>
+                        <li>Participation à l'optimisation SEO avec des contenus mieux structurés et plus compréhensibles.</li>
+                        <li>Suivi de l'avancement avec des échanges réguliers, des captures et des ajustements progressifs.</li>
+                    </ul>
+                </div>
+
+                <div class="project-section">
+                    <h3>Avant / après</h3>
+                    <div class="project-gallery">
+                        <figure class="screenshot-container">
+                            <img src="captures/hitop-accueil-avant-refonte.png" alt="Ancienne page d'accueil HITOP">
+                            <figcaption class="screenshot-title">Ancienne version de l'accueil</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/hitop-accueil-refonte.png" alt="Nouvelle page d'accueil HITOP">
+                            <figcaption class="screenshot-title">Accueil après refonte</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="project-section">
+                    <h3>Captures principales</h3>
+                    <div class="project-gallery">
+                        <figure class="screenshot-container">
+                            <img src="captures/hitop-services-introduction.png" alt="Introduction des services HITOP">
+                            <figcaption class="screenshot-title">Introduction des services</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/hitop-services-cartes-2.png" alt="Cartes de services HITOP">
+                            <figcaption class="screenshot-title">Cartes de services</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/hitop-devis-cta.png" alt="Appel à l'action pour demander un devis">
+                            <figcaption class="screenshot-title">Appel à l'action pour les devis</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/hitop-temoignages.png" alt="Témoignages clients HITOP">
+                            <figcaption class="screenshot-title">Témoignages clients</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="project-section">
+                    <h3>Mise en ligne et résultat</h3>
+                    <p>
+                        Le résultat final est un site plus cohérent, plus clair et mieux orienté vers les besoins des visiteurs. Les services sont davantage mis en avant, les appels à l'action sont plus visibles et l'ensemble donne une image plus professionnelle de l'entreprise.
+                    </p>
+                    <div class="project-gallery project-gallery-wide">
+                        <figure class="screenshot-container">
+                            <img src="captures/hitop-mise-en-ligne-serveur.png" alt="Mise en ligne du site HITOP">
+                            <figcaption class="screenshot-title">Mise en ligne et vérification du site</figcaption>
+                        </figure>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://hitop.fr/" class="btn" target="_blank" rel="noopener noreferrer">Voir HITOP.fr</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Mon Portfolio. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

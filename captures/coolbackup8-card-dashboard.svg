@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1546 627" role="img" aria-labelledby="title desc">
+  <title id="title">Dashboard CoolBackup8</title>
+  <desc id="desc">Capture stylisée du tableau de bord CoolBackup8 avec statistiques, actions rapides et paramétrages par défaut.</desc>
+  <rect width="1546" height="627" fill="#eeeeef"/>
+  <text x="24" y="49" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#111820">CoolBackup8</text>
+  <text x="193" y="48" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#89919d">v2.6.0</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="25" y="83" width="356" height="244" rx="8" fill="#ffffff" stroke="#dddddd"/>
+    <text x="58" y="219" font-size="38">📦</text>
+    <text x="121" y="205" font-size="31" font-weight="700" fill="#2271b1">0</text>
+    <text x="121" y="234" font-size="15" fill="#555">Sauvegardes totales</text>
+
+    <rect x="405" y="83" width="356" height="244" rx="8" fill="#ffffff" stroke="#dddddd"/>
+    <text x="438" y="219" font-size="38">💾</text>
+    <text x="501" y="205" font-size="31" font-weight="700" fill="#2271b1">0 o</text>
+    <text x="501" y="234" font-size="15" fill="#555">Espace utilisé</text>
+
+    <rect x="785" y="83" width="356" height="244" rx="8" fill="#ffffff" stroke="#dddddd"/>
+    <text x="818" y="219" font-size="38">🗓️</text>
+    <text x="881" y="205" font-size="31" font-weight="700" fill="#2271b1">Jamais</text>
+    <text x="881" y="234" font-size="15" fill="#555">Dernière sauvegarde</text>
+
+    <rect x="1165" y="83" width="356" height="244" rx="8" fill="#ffffff" stroke="#dddddd"/>
+    <rect x="1262" y="113" width="100" height="25" rx="12" fill="#2271b1"/>
+    <text x="1276" y="131" font-size="13" font-weight="700" fill="#ffffff">▦ Quotidien</text>
+    <text x="1368" y="130" font-size="18" font-weight="700" fill="#2271b1">11 février 2026</text>
+    <text x="1262" y="160" font-size="18" fill="#2271b1">23h08</text>
+    <text x="1326" y="160" font-size="15" font-weight="700" fill="#555">(24 heures)</text>
+    <rect x="1262" y="171" width="106" height="25" rx="12" fill="#18a63c"/>
+    <text x="1277" y="188" font-size="13" font-weight="700" fill="#ffffff">▦ Hebdomadaire</text>
+    <text x="1393" y="187" font-size="18" fill="#2271b1">16 février</text>
+    <text x="1262" y="215" font-size="18" fill="#2271b1">2026 23h15</text>
+    <text x="1362" y="215" font-size="15" font-weight="700" fill="#555">(6 jours)</text>
+    <rect x="1262" y="226" width="94" height="25" rx="12" fill="#dc3545"/>
+    <text x="1276" y="244" font-size="13" font-weight="700" fill="#ffffff">▦ Mensuel</text>
+    <text x="1361" y="243" font-size="18" fill="#2271b1">1 mars 2026</text>
+    <text x="1262" y="272" font-size="18" fill="#2271b1">23h30</text>
+    <text x="1328" y="272" font-size="15" font-weight="700" fill="#555">(3 semaines)</text>
+    <text x="1262" y="300" font-size="15" fill="#555">Prochaines sauvegardes</text>
+  </g>
+  <rect x="25" y="351" width="1496" height="138" rx="8" fill="#ffffff" stroke="#dddddd"/>
+  <text x="48" y="393" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#111820">Actions rapides</text>
+  <rect x="48" y="414" width="353" height="53" rx="4" fill="#2271b1"/>
+  <text x="91" y="448" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#ffffff">↻  Créer une sauvegarde maintenant</text>
+  <rect x="417" y="414" width="273" height="34" rx="4" fill="#ffffff" stroke="#2271b1"/>
+  <text x="431" y="437" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#2271b1">⚙️  Paramétrages par défaut en 1 clic</text>
+  <rect x="25" y="514" width="1496" height="113" rx="8" fill="#ffffff" stroke="#dddddd"/>
+  <text x="48" y="555" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#111820">Paramétrages par défaut disponibles</text>
+  <line x1="48" y1="570" x2="1498" y2="570" stroke="#2271b1" stroke-width="2"/>
+  <text x="48" y="607" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#334155">Cliquez sur un paramétrage pour l'appliquer immédiatement:</text>
+</svg>

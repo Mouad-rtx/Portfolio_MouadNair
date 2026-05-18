@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolBackup8 - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-detail-header { margin-bottom: 2rem; }
+        .back-link { color: var(--accent-color); text-decoration: none; font-weight: 600; transition: var(--transition); }
+        .back-link:hover { color: var(--primary-color); }
+        .detail-content { background: white; padding: 2rem; border-radius: 8px; box-shadow: var(--shadow); }
+        .project-hero-detail { max-width: 920px; margin-bottom: 2.5rem; }
+        .project-hero-detail h2 { color: var(--primary-color); font-size: 2.2rem; line-height: 1.15; margin: 0.8rem 0 1rem; }
+        .project-lead { color: #555; font-size: 1.08rem; line-height: 1.8; margin-bottom: 1.3rem; }
+        .project-meta-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 2rem 0; }
+        .project-meta { background: var(--bg-light); border-left: 4px solid var(--accent-color); border-radius: 6px; padding: 1rem; }
+        .project-meta strong { display: block; color: var(--primary-color); margin-bottom: 0.35rem; }
+        .project-meta span { color: #666; }
+        .project-section { padding-top: 2rem; margin-top: 2rem; border-top: 1px solid var(--border-color); }
+        .project-section h3 { color: var(--primary-color); margin-bottom: 1rem; font-size: 1.45rem; }
+        .project-section p, .project-section li { color: #555; line-height: 1.8; }
+        .project-section ul { margin-left: 1.3rem; }
+        .project-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin-top: 1.3rem; }
+        .project-gallery-wide { grid-template-columns: 1fr; }
+        .screenshot-container { background: var(--bg-light); padding: 1rem; border-radius: 8px; border: 1px solid var(--border-color); text-align: center; }
+        .screenshot-container img { width: 100%; display: block; border-radius: 4px; box-shadow: var(--shadow); }
+        .screenshot-title { margin-top: 0.8rem; color: var(--primary-color); font-weight: 600; }
+        @media (max-width: 900px) {
+            .project-meta-grid, .project-gallery { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Portfolio</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="project-detail-header">
+                <a href="projets.html" class="back-link">&larr; Retour aux projets</a>
+            </div>
+
+            <article class="detail-content">
+                <div class="project-hero-detail">
+                    <div>
+                        <span class="project-type">Stage 2ème année - WordPress</span>
+                        <h2>Développement du plugin WordPress CoolBackup8</h2>
+                        <p class="project-lead">
+                            CoolBackup8 est un plugin WordPress de sauvegarde développé pendant mon stage de deuxième année. Le besoin était de remplacer une ancienne solution qui ne fonctionnait plus correctement avec PHP 8, tout en gardant une interface simple pour administrer les sauvegardes d'un site.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">PHP 8</span>
+                            <span class="tech-tag">Plugin WordPress</span>
+                            <span class="tech-tag">Git</span>
+                            <span class="tech-tag">Sauvegardes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-meta-grid">
+                    <div class="project-meta"><strong>Contexte</strong><span>Stage de développement WordPress</span></div>
+                    <div class="project-meta"><strong>Objectif</strong><span>Créer un outil de sauvegarde compatible PHP 8</span></div>
+                    <div class="project-meta"><strong>Livrables</strong><span>Plugin, interface d'administration, tests et captures</span></div>
+                </div>
+
+                <div class="project-section">
+                    <h3>Contexte du projet</h3>
+                    <p>
+                        Le projet partait d'un problème concret : l'ancien plugin de sauvegarde n'était plus adapté aux versions récentes de PHP. Il fallait donc repartir sur une solution plus propre, intégrée à WordPress, capable de centraliser les actions importantes dans le tableau de bord.
+                    </p>
+                    <p>
+                        Le plugin devait permettre à un administrateur de lancer une sauvegarde, consulter les sauvegardes générées, accéder au détail d'une archive, ajuster certains paramètres et comprendre ce qui se passe grâce à un journal d'activité.
+                    </p>
+                </div>
+
+                <div class="project-section">
+                    <h3>Fonctionnalités réalisées</h3>
+                    <ul>
+                        <li>Création d'un tableau de bord dédié au plugin dans l'administration WordPress.</li>
+                        <li>Mise en place d'une sauvegarde manuelle pour générer une archive à la demande.</li>
+                        <li>Affichage des sauvegardes existantes avec leurs informations principales.</li>
+                        <li>Consultation du détail d'une sauvegarde et accès aux archives générées.</li>
+                        <li>Préparation d'un système de sauvegardes programmées avec prochaines exécutions visibles.</li>
+                        <li>Ajout d'une zone de configuration pour adapter le comportement du plugin.</li>
+                        <li>Utilisation d'un journal d'activité pour suivre les actions et faciliter les vérifications.</li>
+                    </ul>
+                </div>
+
+                <div class="project-section">
+                    <h3>Méthode de travail</h3>
+                    <p>
+                        Le développement a été réalisé progressivement avec des points réguliers avec mon maître de stage. J'ai travaillé par étapes : compréhension du besoin, mise en place de la structure du plugin, création de l'interface, développement des actions de sauvegarde, tests et corrections.
+                    </p>
+                    <p>
+                        Git m'a permis de suivre l'avancement du code et de conserver une trace des modifications. Les réunions et les prises en main à distance m'ont aidé à améliorer ma méthode de débogage, ma compréhension de WordPress et ma façon d'organiser le code PHP.
+                    </p>
+                </div>
+
+                <div class="project-section">
+                    <h3>Captures principales</h3>
+                    <div class="project-gallery">
+                        <figure class="screenshot-container">
+                            <img src="captures/coolbackup8-dashboard.svg" alt="Tableau de bord CoolBackup8">
+                            <figcaption class="screenshot-title">Tableau de bord du plugin</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/coolbackup8-sauvegarde-manuelle.png" alt="Sauvegarde manuelle CoolBackup8">
+                            <figcaption class="screenshot-title">Lancement d'une sauvegarde manuelle</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/coolbackup8-detail-sauvegarde.png" alt="Détail d'une sauvegarde CoolBackup8">
+                            <figcaption class="screenshot-title">Détail d'une sauvegarde générée</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/coolbackup8-parametrages-et-configuration.png" alt="Configuration du plugin CoolBackup8">
+                            <figcaption class="screenshot-title">Paramétrage et configuration</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="project-section">
+                    <h3>Suivi et tests</h3>
+                    <p>
+                        Les tests ont permis de vérifier le fonctionnement des sauvegardes, l'affichage des archives, la cohérence des paramètres et la lisibilité des informations dans l'administration WordPress.
+                    </p>
+                    <div class="project-gallery">
+                        <figure class="screenshot-container">
+                            <img src="captures/coolbackup8-prochaines-sauvegardes.png" alt="Prochaines sauvegardes programmées">
+                            <figcaption class="screenshot-title">Visualisation des prochaines sauvegardes</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/coolbackup8-journal.svg" alt="Journal d'activité CoolBackup8">
+                            <figcaption class="screenshot-title">Journal d'activité du plugin</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/coolbackup8-git.svg" alt="Suivi Git du projet CoolBackup8">
+                            <figcaption class="screenshot-title">Suivi du développement avec Git</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/coolbackup8-visio-quotidienne.png" alt="Visio de suivi du stage">
+                            <figcaption class="screenshot-title">Point de suivi avec le maître de stage</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="project-section">
+                    <h3>Résultat obtenu</h3>
+                    <p>
+                        Le projet a abouti à un plugin fonctionnel dans son principe, avec une interface claire pour gérer les sauvegardes depuis WordPress. Cette réalisation m'a permis de travailler sur un vrai besoin professionnel, avec des contraintes de compatibilité PHP 8, d'organisation du code, de tests et d'expérience utilisateur côté administration.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Mon Portfolio. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

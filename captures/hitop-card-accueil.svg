@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Accueil HITOP</title>
+  <desc id="desc">Capture stylisée de la page d'accueil HITOP avec un hero bleu et le titre Soyez visibles sur internet.</desc>
+  <rect width="1900" height="900" fill="#ffffff"/>
+  <rect width="1900" height="86" fill="#f6f7fb"/>
+  <text x="240" y="53" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="#6a63d8">HITOP</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" fill="#2b3443">
+    <text x="862" y="50">Accueil</text>
+    <text x="974" y="50">Services</text>
+    <text x="1098" y="50">Tarifs</text>
+    <text x="1191" y="50">Témoignages</text>
+    <text x="1360" y="50">Contact</text>
+    <text x="1476" y="50">Web - SEO</text>
+    <text x="1618" y="50">Blog</text>
+  </g>
+  <path d="M0 86H1900V836L0 897Z" fill="#284f8e"/>
+  <text x="950" y="196" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="800" fill="#ffffff">Soyez visibles sur internet</text>
+  <text x="950" y="280" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" fill="#ffffff">Mettez votre site web au TOP des moteurs de recherche : Google, Bing et Yahoo</text>
+  <rect x="751" y="333" width="400" height="297" fill="#ffffff"/>
+  <rect x="771" y="350" width="360" height="222" rx="8" fill="#111820" stroke="#4a5568" stroke-width="4"/>
+  <rect x="788" y="367" width="326" height="187" rx="4" fill="#07101f"/>
+  <ellipse cx="951" cy="447" rx="132" ry="72" fill="#092b5e"/>
+  <path d="M805 506C865 430 971 403 1082 432" fill="none" stroke="#00b7ff" stroke-width="8"/>
+  <path d="M846 500C920 454 1027 420 1076 381" fill="none" stroke="#ff9700" stroke-width="12"/>
+  <path d="M1076 381L1031 391L1064 423Z" fill="#ff9700"/>
+  <text x="952" y="479" text-anchor="middle" font-family="Arial Black, Segoe UI, Arial, sans-serif" font-size="58" font-weight="900" fill="#20c6ff">HITOP.fr</text>
+  <text x="950" y="674" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" fill="#ffffff">La meilleure preuve de l'efficacité de mes référencements... est que vous m'avez trouvé !</text>
+  <rect x="772" y="726" width="356" height="72" rx="36" fill="#ffffff"/>
+  <text x="950" y="770" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" fill="#1f4176">Demander un devis gratuit</text>
+</svg>

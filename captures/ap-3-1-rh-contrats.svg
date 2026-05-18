@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 743" role="img" aria-labelledby="title desc">
+  <title id="title">Contrats RH intervenant</title>
+  <desc id="desc">Capture stylisee de la gestion des contrats d'un intervenant par le service RH.</desc>
+  <rect width="1900" height="743" fill="#dff4fb"/>
+  <rect width="1900" height="198" fill="#5d4898"/>
+  <text x="10" y="65" font-family="Segoe UI, Arial, sans-serif" font-size="62" fill="#fff">Maison des Ligues</text>
+  <rect y="198" width="1900" height="54" fill="#82cee6"/>
+  <rect x="1370" y="198" width="176" height="54" fill="#fffdee"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff">
+    <text x="715" y="233">Accueil</text><text x="883" y="233">Services</text><text x="1066" y="233">Locaux</text><text x="1245" y="233">Ligues</text><text x="1384" y="233" fill="#000">Intervenants</text><text x="1560" y="233">Mon compte</text><text x="1734" y="233">Déconnexion</text>
+  </g>
+  <rect x="742" y="252" width="412" height="491" fill="#f2f2f2"/>
+  <text x="742" y="320" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">Contrats de l'intervenant #20</text>
+  <text x="868" y="351" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#00e" text-decoration="underline">Ajouter un contrat</text>
+  <text x="792" y="390" font-family="Segoe UI, Arial, sans-serif" font-size="20">Aucun contrat pour cet intervenant.</text>
+</svg>

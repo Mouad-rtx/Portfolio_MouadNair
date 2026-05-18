@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 714" role="img" aria-labelledby="title desc">
+  <title id="title">Liste RH des intervenants</title>
+  <desc id="desc">Capture stylisee de la liste des intervenants accessible au service RH.</desc>
+  <rect width="1900" height="714" fill="#dff4fb"/>
+  <rect width="1900" height="196" fill="#5d4898"/>
+  <text x="14" y="62" font-family="Segoe UI, Arial, sans-serif" font-size="62" fill="#fff">Maison des Ligues</text>
+  <rect y="196" width="1900" height="53" fill="#82cee6"/>
+  <rect x="1362" y="196" width="190" height="53" fill="#fffdee"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff">
+    <text x="719" y="231">Accueil</text><text x="888" y="231">Services</text><text x="1070" y="231">Locaux</text><text x="1250" y="231">Ligues</text>
+    <text x="1390" y="231" fill="#000">Intervenants</text><text x="1565" y="231">Mon compte</text><text x="1738" y="231">Déconnexion</text>
+  </g>
+  <rect x="544" y="249" width="817" height="465" fill="#f2f2f2"/>
+  <text x="800" y="327" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="800">Liste des intervenants</text>
+  <text x="854" y="358" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#00e" text-decoration="underline">Ajouter un intervenant</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="20">
+    <rect x="545" y="376" width="815" height="28" fill="#cfe1f1" stroke="#888"/>
+    <text x="546" y="398" font-weight="700">ID</text><text x="580" y="398" font-weight="700">Login</text><text x="659" y="398" font-weight="700">Nom</text><text x="719" y="398" font-weight="700">Prenom</text><text x="875" y="398" font-weight="700">Role</text><text x="1144" y="398" font-weight="700">Actions</text>
+    <text x="546" y="426">20</text><text x="572" y="426">lbernard</text><text x="645" y="426">Bernard</text><text x="720" y="426">Leo</text><text x="793" y="426">Volontaire / Benevole</text><text x="998" y="426" fill="#00e" text-decoration="underline">Contrats | Bulletins | Modifier | Supprimer</text>
+    <text x="546" y="454">7</text><text x="572" y="454">cdupont</text><text x="645" y="454">Dupont</text><text x="720" y="454">Claire</text><text x="793" y="454">Volontaire / Benevole</text><text x="998" y="454" fill="#00e" text-decoration="underline">Contrats | Bulletins | Modifier | Supprimer</text>
+    <text x="546" y="482">5</text><text x="572" y="482">mdupuis</text><text x="645" y="482">Dupuis</text><text x="720" y="482">Marie</text><text x="793" y="482">President</text><text x="998" y="482" fill="#00e" text-decoration="underline">Contrats | Bulletins | Modifier | Supprimer</text>
+    <text x="546" y="510">1</text><text x="572" y="510">adurand</text><text x="645" y="510">Durand</text><text x="720" y="510">Alice</text><text x="793" y="510">RH</text><text x="998" y="510" fill="#00e" text-decoration="underline">Contrats | Bulletins | Modifier | Supprimer</text>
+    <text x="546" y="538">4</text><text x="572" y="538">tlegrand</text><text x="645" y="538">Legrand</text><text x="720" y="538">Titouan</text><text x="793" y="538">Salarie</text><text x="998" y="538" fill="#00e" text-decoration="underline">Contrats | Bulletins | Modifier | Supprimer</text>
+    <text x="546" y="566">8</text><text x="572" y="566">plenoir</text><text x="645" y="566">Lenoir</text><text x="720" y="566">Paul</text><text x="793" y="566">Responsable formation</text><text x="998" y="566" fill="#00e" text-decoration="underline">Contrats | Bulletins | Modifier | Supprimer</text>
+  </g>
+</svg>

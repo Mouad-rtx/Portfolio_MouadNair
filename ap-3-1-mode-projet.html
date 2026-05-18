@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP 3.1 - Mode Projet - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-detail-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .back-link:hover {
+            gap: 1rem;
+            text-shadow: 0 0 8px var(--accent-color);
+        }
+
+        .detail-content {
+            background-color: var(--bg-dark);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            margin-bottom: 2rem;
+        }
+
+        .detail-description {
+            line-height: 1.8;
+            color: var(--text-dark);
+            margin-bottom: 2rem;
+        }
+
+        .detail-description p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+
+        .detail-description ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .detail-description li {
+            margin-bottom: 0.5rem;
+        }
+
+        .tech-details {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 2px solid var(--border-color);
+        }
+
+        .tech-details h4,
+        .screenshots-section h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .screenshots-section {
+            margin-top: 2rem;
+        }
+
+        .screenshots {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .screenshot-container {
+            background-color: var(--bg-light);
+            padding: 1rem;
+            border-radius: 8px;
+            border: 2px solid var(--border-color);
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .screenshot-container img {
+            display: block;
+            width: 100%;
+            height: auto;
+            background: white;
+            border-radius: 4px;
+            box-shadow: var(--shadow);
+        }
+
+        .screenshot-title {
+            margin-top: 1rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 768px) {
+            .detail-content {
+                padding: 1.5rem;
+            }
+
+            .screenshots {
+                grid-template-columns: 1fr;
+                gap: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Portfolio</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="project-detail-header">
+                <a href="competences.html" class="back-link">
+                    <span>&larr;</span>
+                    <span>Retour aux compétences</span>
+                </a>
+            </div>
+
+            <div class="detail-content">
+                <h2 style="color: var(--primary-color); margin-bottom: 1rem;">AP 3.1 - Travailler en mode projet</h2>
+                <span class="project-type" style="display: inline-block; margin-bottom: 1.5rem;">Projet Scolaire BTS SIO</span>
+
+                <div class="detail-description">
+                    <p>Dans le cadre du projet AP 3.1 du BTS SIO, j'ai participé au développement d'un module de gestion des intervenants (salariés et bénévoles) ainsi que des bulletins de salaire pour la Maison des Ligues de Lorraine (M2L).</p>
+
+                    <p>Le projet a été réalisé en équipe en respectant une organisation en mode projet avec l'utilisation de GitLab, des branches Git et de Trello pour le suivi des tâches et la répartition du travail.</p>
+
+                    <h4 style="margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--accent-color);">Ma mission consistait principalement à développer la partie liée :</h4>
+                    <ul>
+                        <li>à la gestion des intervenants,</li>
+                        <li>à la gestion des contrats de travail,</li>
+                        <li>à la consultation des informations personnelles,</li>
+                        <li>ainsi qu'à la gestion et l'upload des bulletins de salaire au format PDF.</li>
+                    </ul>
+
+                    <h4 style="margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--accent-color);">Pour réaliser cette mission, j'ai dû :</h4>
+                    <ul>
+                        <li>analyser les besoins exprimés dans le cahier des charges,</li>
+                        <li>concevoir les différentes fonctionnalités nécessaires,</li>
+                        <li>développer les traitements en PHP orienté objet selon l'architecture MVC,</li>
+                        <li>mettre en place les accès sécurisés selon le rôle des utilisateurs,</li>
+                        <li>tester les fonctionnalités développées,</li>
+                        <li>corriger les erreurs rencontrées,</li>
+                        <li>et suivre l'avancement du projet avec les outils collaboratifs.</li>
+                    </ul>
+
+                    <p style="margin-top: 1.5rem;">Ce travail m'a permis de développer des compétences en travail collaboratif, en organisation de projet, en gestion de versions avec Git ainsi qu'en développement d'applications web structurées.</p>
+                </div>
+
+                <div class="tech-details">
+                    <h4>Outils et méthodes utilisés</h4>
+                    <div class="tech-stack">
+                        <span class="tech-tag">GitLab</span>
+                        <span class="tech-tag">Trello</span>
+                        <span class="tech-tag">Git</span>
+                        <span class="tech-tag">Branches Git</span>
+                        <span class="tech-tag">PHP Objet</span>
+                        <span class="tech-tag">Architecture MVC</span>
+                        <span class="tech-tag">Travail en équipe</span>
+                    </div>
+                </div>
+
+                <div class="screenshots-section">
+                    <h3>Captures du suivi de projet</h3>
+                    <div class="screenshots">
+                        <figure class="screenshot-container">
+                            <img src="captures/ap-3-1-trello.svg" alt="Tableau Trello utilisé pour suivre les tâches du projet AP 3.1">
+                            <figcaption class="screenshot-title">Suivi des tâches avec Trello</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/ap-3-1-gitlab.svg" alt="Dépôt GitLab du projet AP 3.1 avec les fichiers et les commits">
+                            <figcaption class="screenshot-title">Dépôt GitLab et gestion des versions</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Mon Portfolio. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

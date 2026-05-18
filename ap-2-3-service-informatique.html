@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP 2.3 - Service informatique</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-detail-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; }
+        .back-link { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--accent-color); text-decoration: none; font-weight: 500; transition: var(--transition); }
+        .back-link:hover { gap: 1rem; text-shadow: 0 0 8px var(--accent-color); }
+        .detail-content { background-color: var(--bg-dark); padding: 2rem; border-radius: 8px; box-shadow: var(--shadow); margin-bottom: 2rem; }
+        .detail-description { line-height: 1.8; color: var(--text-dark); }
+        .detail-description p { margin-bottom: 1rem; text-align: justify; }
+        .detail-description ul { margin-left: 1.5rem; margin-bottom: 1rem; }
+        .tech-details { margin-top: 2rem; padding-top: 2rem; border-top: 2px solid var(--border-color); }
+    </style>
+</head>
+<body>
+    <header><div class="container"><div class="header-content"><a href="index.html" class="logo">Portfolio</a><nav><ul><li><a href="index.html">Accueil</a></li><li><a href="competences.html">Compétences</a></li><li><a href="projets.html">Projets</a></li><li><a href="contact.html">Contact</a></li></ul></nav></div></div></header>
+    <section><div class="container"><div class="project-detail-header"><a href="competences.html" class="back-link"><span>&larr;</span><span>Retour aux compétences</span></a></div><div class="detail-content">
+        <h2 style="color: var(--primary-color); margin-bottom: 1rem;">AP 2.3 - Mettre à disposition un service informatique</h2>
+        <span class="project-type" style="display: inline-block; margin-bottom: 1.5rem;">Site statique M2L - BTS SIO 1ère année</span>
+        <div class="detail-description">
+            <p>Le site web statique réalisé dans cette AP constitue un service informatique mis à disposition des visiteurs. Il devait permettre de consulter des informations sur la M2L, ses ligues, ses moyens de contact et ses accès.</p>
+            <p>Sur les pages que j'ai réalisées, j'ai veillé à rendre les informations accessibles grâce à une navigation claire, une mise en page lisible et des sections utiles pour l'utilisateur.</p>
+            <h4 style="color: var(--accent-color); margin-top: 1.5rem;">Éléments mis à disposition des utilisateurs</h4>
+            <ul>
+                <li>page d'accueil présentant la M2L,</li>
+                <li>page "Ligues" permettant de consulter les ligues,</li>
+                <li>liens de navigation entre les pages,</li>
+                <li>liens vers Facebook et Instagram,</li>
+                <li>section "Comment venir à nous",</li>
+                <li>section "Nous contacter".</li>
+            </ul>
+            <p>Cette compétence est validée car les pages développées ne sont pas seulement du code : elles forment un service web consultable, organisé et utile pour les visiteurs de la M2L.</p>
+        </div>
+        <div class="tech-details"><h4>Outils et notions utilisés</h4><div class="tech-stack"><span class="tech-tag">HTML5</span><span class="tech-tag">CSS3</span><span class="tech-tag">Navigation web</span><span class="tech-tag">Mise en page</span><span class="tech-tag">Intégration d'images</span><span class="tech-tag">Accessibilité des contenus</span></div></div>
+    </div></div></section>
+    <footer><div class="container"><p>&copy; 2026 Mon Portfolio. Tous droits réservés.</p></div></footer><script src="script.js"></script>
+</body>
+</html>

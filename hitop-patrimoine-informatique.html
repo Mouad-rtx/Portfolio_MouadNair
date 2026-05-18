@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HITOP - Patrimoine informatique</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-detail-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; }
+        .back-link { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--accent-color); text-decoration: none; font-weight: 500; transition: var(--transition); }
+        .back-link:hover { gap: 1rem; text-shadow: 0 0 8px var(--accent-color); }
+        .detail-content { background-color: var(--bg-dark); padding: 2rem; border-radius: 8px; box-shadow: var(--shadow); margin-bottom: 2rem; }
+        .detail-description { line-height: 1.8; color: var(--text-dark); margin-bottom: 2rem; }
+        .detail-description p { margin-bottom: 1rem; text-align: justify; }
+        .detail-description ul { margin-left: 1.5rem; margin-bottom: 1rem; }
+        .detail-description li { margin-bottom: 0.5rem; }
+        .tech-details { margin-top: 2rem; padding-top: 2rem; border-top: 2px solid var(--border-color); }
+        .tech-details h4 { color: var(--primary-color); margin-bottom: 1rem; font-size: 1.1rem; }
+        .evidence-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin-top: 1.5rem; }
+        .screenshot-container { background-color: var(--bg-light); padding: 1rem; border-radius: 8px; border: 2px solid var(--border-color); text-align: center; overflow: hidden; }
+        .screenshot-container img { display: block; width: 100%; height: auto; background: white; border-radius: 4px; box-shadow: var(--shadow); }
+        .screenshot-title { margin-top: 1rem; font-weight: 600; color: var(--primary-color); font-size: 0.95rem; }
+        @media (max-width: 768px) { .evidence-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <header><div class="container"><div class="header-content"><a href="index.html" class="logo">Portfolio</a><nav><ul><li><a href="index.html">Accueil</a></li><li><a href="competences.html">Compétences</a></li><li><a href="projets.html">Projets</a></li><li><a href="contact.html">Contact</a></li></ul></nav></div></div></header>
+    <section><div class="container"><div class="project-detail-header"><a href="competences.html" class="back-link"><span>&larr;</span><span>Retour aux compétences</span></a></div><div class="detail-content">
+        <h2 style="color: var(--primary-color); margin-bottom: 1rem;">HITOP - Gérer le patrimoine informatique</h2>
+        <span class="project-type" style="display: inline-block; margin-bottom: 1.5rem;">Stage 1ère année</span>
+        <div class="detail-description">
+            <p>Pendant mon stage de première année chez HITOP, j'ai participé à la gestion et à la maintenance de plusieurs sites web professionnels.</p>
+            <h4 style="margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--accent-color);">J'ai notamment travaillé sur :</h4>
+            <ul><li>la mise à jour de contenus web,</li><li>la maintenance de certaines pages du site,</li><li>l'organisation des fichiers du projet,</li><li>la gestion des hébergements et noms de domaine,</li><li>ainsi que l'optimisation technique des sites internet.</li></ul>
+            <h4 style="margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--accent-color);">J'ai également découvert l'importance :</h4>
+            <ul><li>des sauvegardes,</li><li>de la sécurité des sites web,</li><li>des performances serveur,</li><li>et de la gestion des ressources numériques.</li></ul>
+            <p>Cette expérience m'a permis de comprendre le fonctionnement global d'une infrastructure web et de développer des compétences en administration et maintenance de services numériques.</p>
+            <div class="evidence-grid">
+                <figure class="screenshot-container"><img src="captures/hitop-services-cartes-2.png" alt="Services maintenance support technique et hebergement web du site HITOP"><figcaption class="screenshot-title">Maintenance et h&eacute;bergement : ressources num&eacute;riques &agrave; administrer</figcaption></figure>
+                <figure class="screenshot-container"><img src="captures/hitop-footer-contact.png" alt="Footer HITOP avec coordonnees navigation et mentions legales"><figcaption class="screenshot-title">Informations de service : contact, navigation et mentions l&eacute;gales</figcaption></figure>
+            </div>
+        </div>
+        <div class="tech-details"><h4>Compétences mobilisées</h4><div class="tech-stack"><span class="tech-tag">Maintenance web</span><span class="tech-tag">Hébergement</span><span class="tech-tag">Noms de domaine</span><span class="tech-tag">Sauvegardes</span><span class="tech-tag">Sécurisation</span></div></div>
+    </div></div></section>
+    <footer><div class="container"><p>&copy; 2026 Mon Portfolio. Tous droits réservés.</p></div></footer><script src="script.js"></script>
+</body>
+</html>

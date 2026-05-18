@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HITOP - Mode projet</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-detail-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; }
+        .back-link { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--accent-color); text-decoration: none; font-weight: 500; transition: var(--transition); }
+        .back-link:hover { gap: 1rem; text-shadow: 0 0 8px var(--accent-color); }
+        .detail-content { background-color: var(--bg-dark); padding: 2rem; border-radius: 8px; box-shadow: var(--shadow); margin-bottom: 2rem; }
+        .detail-description { line-height: 1.8; color: var(--text-dark); margin-bottom: 2rem; }
+        .detail-description p { margin-bottom: 1rem; text-align: justify; }
+        .detail-description ul { margin-left: 1.5rem; margin-bottom: 1rem; }
+        .detail-description li { margin-bottom: 0.5rem; }
+        .tech-details { margin-top: 2rem; padding-top: 2rem; border-top: 2px solid var(--border-color); }
+        .tech-details h4 { color: var(--primary-color); margin-bottom: 1rem; font-size: 1.1rem; }
+        .evidence-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin-top: 1.5rem; }
+        .screenshot-container { background-color: var(--bg-light); padding: 1rem; border-radius: 8px; border: 2px solid var(--border-color); text-align: center; overflow: hidden; }
+        .screenshot-container img { display: block; width: 100%; height: auto; background: white; border-radius: 4px; box-shadow: var(--shadow); }
+        .screenshot-title { margin-top: 1rem; font-weight: 600; color: var(--primary-color); font-size: 0.95rem; }
+        @media (max-width: 768px) { .evidence-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <header><div class="container"><div class="header-content"><a href="index.html" class="logo">Portfolio</a><nav><ul><li><a href="index.html">Accueil</a></li><li><a href="competences.html">Compétences</a></li><li><a href="projets.html">Projets</a></li><li><a href="contact.html">Contact</a></li></ul></nav></div></div></header>
+    <section><div class="container"><div class="project-detail-header"><a href="competences.html" class="back-link"><span>&larr;</span><span>Retour aux compétences</span></a></div><div class="detail-content">
+        <h2 style="color: var(--primary-color); margin-bottom: 1rem;">HITOP - Travailler en mode projet</h2>
+        <span class="project-type" style="display: inline-block; margin-bottom: 1.5rem;">Stage 1ère année</span>
+        <div class="detail-description">
+            <p>Pendant mon stage chez HITOP, j'ai travaillé sur différents projets web en collaboration avec mon tuteur de stage.</p>
+            <h4 style="margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--accent-color);">J'ai dû :</h4>
+            <ul><li>respecter les demandes du client,</li><li>suivre les différentes étapes de développement,</li><li>organiser mes tâches quotidiennes,</li><li>réaliser des points réguliers en visioconférence,</li><li>et rendre compte de l'avancement des travaux effectués.</li></ul>
+            <p>J'ai également utilisé des outils de développement et de gestion de versions afin de travailler de manière organisée et structurée sur les différents projets web. Les semaines 3 et 4 ont surtout porté sur les corrections demandées, les points quotidiens en visio, le découpage du code et la découverte de la mise en ligne.</p>
+            <p>Cette expérience m'a permis de développer des compétences en organisation de projet, en communication professionnelle et en travail collaboratif.</p>
+            <div class="evidence-grid">
+                <figure class="screenshot-container"><img src="captures/hitop-arborescence-projet.png" alt="Arborescence des fichiers du projet HITOP dans Visual Studio Code"><figcaption class="screenshot-title">Arborescence : organisation des fichiers du projet</figcaption></figure>
+                <figure class="screenshot-container"><img src="captures/hitop-fichiers-header-footer.png" alt="Fichiers header et footer separes dans le projet HITOP"><figcaption class="screenshot-title">Structure modulaire : fichiers header et footer s&eacute;par&eacute;s</figcaption></figure>
+                <figure class="screenshot-container"><img src="captures/hitop-header-footer-optimises.png" alt="Fichiers header footer et CSS optimises"><figcaption class="screenshot-title">Optimisation : header/footer isol&eacute;s pour &eacute;viter les doublons</figcaption></figure>
+                <figure class="screenshot-container"><img src="captures/hitop-code-footer.png" alt="Code du fichier footer du projet HITOP"><figcaption class="screenshot-title">Code : exemple de production suivie et organis&eacute;e</figcaption></figure>
+                <figure class="screenshot-container"><img src="captures/hitop-consigne-header-footer-1.png" alt="Consigne pour creer des fichiers header et footer externes"><figcaption class="screenshot-title">Correction demand&eacute;e : comprendre la mise en commun du header/footer</figcaption></figure>
+                <figure class="screenshot-container"><img src="captures/hitop-consigne-header-footer-2.png" alt="Consigne pour inclure header et footer dans les pages HTML"><figcaption class="screenshot-title">D&eacute;coupage modulaire : consignes pour mieux organiser les pages</figcaption></figure>
+                <figure class="screenshot-container"><img src="captures/hitop-visio-git-avancement.png" alt="Visio quotidienne avec terminal et suivi Git du projet HITOP"><figcaption class="screenshot-title">Visio quotidienne : suivi d'avancement et corrections Git</figcaption></figure>
+                <figure class="screenshot-container"><img src="captures/hitop-serveur-git-visio.png" alt="Visio avec exploration du serveur et depot Git du site HITOP"><figcaption class="screenshot-title">Accompagnement : d&eacute;couverte du serveur et du d&eacute;p&ocirc;t Git</figcaption></figure>
+            </div>
+        </div>
+        <div class="tech-details"><h4>Compétences mobilisées</h4><div class="tech-stack"><span class="tech-tag">Organisation projet</span><span class="tech-tag">Communication client</span><span class="tech-tag">Suivi des demandes</span><span class="tech-tag">Git</span><span class="tech-tag">Visioconférence</span></div></div>
+    </div></div></section>
+    <footer><div class="container"><p>&copy; 2026 Mon Portfolio. Tous droits réservés.</p></div></footer><script src="script.js"></script>
+</body>
+</html>
