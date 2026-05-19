@@ -342,22 +342,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    async function fetchFeed(feed) {
-        const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(feed.url)}`;
-        const response = await fetch(proxyUrl);
-
-        if (!response.ok) {
-            throw new Error(`Flux indisponible : ${feed.name}`);
-        }
-
-        const xmlText = await response.text();
-        const xml = new DOMParser().parseFromString(xmlText, 'text/xml');
-
-        return Array.from(xml.querySelectorAll('item')).slice(0, 4).map(item => {
-            const title = cleanText(item.querySelector('title')?.textContent || 'Actualité cybersécurité');
-            const description = cleanText(item.querySelector('description')?.textContent || '').slice(0, 180);
-            const link = item.querySelector('link')?.textContent || feed.url;
-            const date = item.querySelector('pubDate')?.textContent || '';
+    function mapFeedItems(items, feed) {
+        return items.slice(0, 4).map(item => {
+            const title = cleanText(item.title || 'Actualité cybersécurité');
+            const description = cleanText(item.description || item.content || '').slice(0, 180);
+            const link = item.link || feed.url;
+            const date = item.pubDate || item.isoDate || item.date || '';
             const category = detectCategory(`${title} ${description}`);
 
             return {
@@ -369,6 +359,60 @@ document.addEventListener('DOMContentLoaded', function() {
                 category
             };
         });
+    }
+
+    async function fetchXmlFeed(url, feed) {
+        const response = await fetch(url, { cache: 'no-store' });
+
+        if (!response.ok) {
+            throw new Error(`Flux indisponible : ${feed.name}`);
+        }
+
+        const xmlText = await response.text();
+        const xml = new DOMParser().parseFromString(xmlText, 'text/xml');
+        const items = Array.from(xml.querySelectorAll('item')).map(item => ({
+            title: item.querySelector('title')?.textContent,
+            description: item.querySelector('description')?.textContent,
+            link: item.querySelector('link')?.textContent,
+            pubDate: item.querySelector('pubDate')?.textContent
+        }));
+
+        return mapFeedItems(items, feed);
+    }
+
+    async function fetchJsonFeed(url, feed) {
+        const response = await fetch(url, { cache: 'no-store' });
+
+        if (!response.ok) {
+            throw new Error(`Flux JSON indisponible : ${feed.name}`);
+        }
+
+        const data = await response.json();
+        return mapFeedItems(data.items || [], feed);
+    }
+
+    async function fetchFeed(feed) {
+        const cacheBust = `t=${Date.now()}`;
+        const feedUrl = `${feed.url}${feed.url.includes('?') ? '&' : '?'}${cacheBust}`;
+        const encodedFeed = encodeURIComponent(feedUrl);
+        const attempts = [
+            () => fetchXmlFeed(`https://api.allorigins.win/raw?url=${encodedFeed}`, feed),
+            () => fetchJsonFeed(`https://api.rss2json.com/v1/api.json?rss_url=${encodedFeed}`, feed)
+        ];
+
+        for (const attempt of attempts) {
+            try {
+                const items = await attempt();
+
+                if (items.length) {
+                    return items;
+                }
+            } catch (error) {
+                // Try the next public proxy when one source is blocked or cached.
+            }
+        }
+
+        throw new Error(`Aucun article récupéré : ${feed.name}`);
     }
 
     async function loadCyberNews() {
