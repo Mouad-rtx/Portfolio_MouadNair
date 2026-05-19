@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620">
+  <rect width="1280" height="620" fill="#f7f8fa"/>
+  <rect width="1280" height="76" fill="#1f2b3a"/>
+  <text x="96" y="48" font-family="Arial" font-size="28" font-weight="700" fill="#18b8a8">Portfolio</text>
+  <rect x="90" y="160" width="640" height="330" rx="8" fill="#fff" stroke="#d9e2ec"/>
+  <rect x="90" y="160" width="5" height="330" fill="#18b8a8"/>
+  <text x="120" y="235" font-family="Arial" font-size="34" font-weight="800" fill="#122033">Présentation de ma veille</text>
+  <text x="120" y="285" font-family="Arial" font-size="18" fill="#415066">La veille technologique consiste à rechercher, suivre, analyser</text>
+  <text x="120" y="322" font-family="Arial" font-size="18" fill="#415066">et synthétiser des informations récentes sur un domaine</text>
+  <text x="120" y="359" font-family="Arial" font-size="18" fill="#415066">informatique. J'ai choisi la cybersécurité car les cyberattaques</text>
+  <text x="120" y="396" font-family="Arial" font-size="18" fill="#415066">touchent directement les entreprises et les infrastructures.</text>
+  <rect x="760" y="160" width="430" height="330" rx="8" fill="#fff" stroke="#d9e2ec"/>
+  <rect x="760" y="160" width="5" height="330" fill="#18b8a8"/>
+  <text x="800" y="235" font-family="Arial" font-size="34" font-weight="800" fill="#122033">Objectifs</text>
+  <text x="805" y="292" font-family="Arial" font-size="18" fill="#415066">• Identifier les cyberattaques récentes.</text>
+  <text x="805" y="332" font-family="Arial" font-size="18" fill="#415066">• Comprendre les techniques utilisées.</text>
+  <text x="805" y="372" font-family="Arial" font-size="18" fill="#415066">• Suivre les ransomwares et le phishing.</text>
+  <text x="805" y="412" font-family="Arial" font-size="18" fill="#415066">• Relier la veille aux compétences BTS SIO.</text>
+</svg>

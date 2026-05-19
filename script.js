@@ -26,6 +26,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const cameFromProjects = params.get('from') === 'projets' || document.referrer.includes('projets.html');
 
     if (cameFromProjects) {
+        document.body.classList.add('from-projects');
+    }
+
+    if (cameFromProjects) {
         document.querySelectorAll('.back-link').forEach(link => {
             link.setAttribute('href', 'projets.html');
 

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoformation Continue - Veille technologique</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-detail-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; }
+        .back-link { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--accent-color); text-decoration: none; font-weight: 500; transition: var(--transition); }
+        .back-link:hover { gap: 1rem; text-shadow: 0 0 8px var(--accent-color); }
+        .detail-content { background-color: var(--bg-dark); padding: 2rem; border-radius: 8px; box-shadow: var(--shadow); margin-bottom: 2rem; }
+        .detail-description { line-height: 1.8; color: var(--text-dark); margin-bottom: 2rem; }
+        .detail-description p { margin-bottom: 1rem; text-align: justify; }
+        .detail-description ul { margin-left: 1.5rem; margin-bottom: 1rem; }
+        .evidence-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin-top: 1.5rem; }
+        .screenshot-container { background-color: var(--bg-light); padding: 1rem; border-radius: 8px; border: 2px solid var(--border-color); text-align: center; overflow: hidden; }
+        .screenshot-container img { display: block; width: 100%; height: auto; background: white; border-radius: 4px; box-shadow: var(--shadow); }
+        .screenshot-title { margin-top: 1rem; font-weight: 600; color: var(--primary-color); font-size: 0.95rem; }
+        .tech-details { margin-top: 2rem; padding-top: 2rem; border-top: 2px solid var(--border-color); }
+        @media (max-width: 768px) { .evidence-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Portfolio</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="competences.html">Comp&eacute;tences</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="project-detail-header">
+                <a href="competences.html" class="back-link"><span>&larr;</span><span>Retour aux comp&eacute;tences</span></a>
+            </div>
+
+            <div class="detail-content">
+                <h2 style="color: var(--primary-color); margin-bottom: 1rem;">Autoformation Continue - Veille technologique</h2>
+                <span class="project-type" style="display: inline-block; margin-bottom: 1.5rem;">BTS SIO SLAM - Organiser son d&eacute;veloppement professionnel</span>
+
+                <div class="detail-description">
+                    <p>
+                        Dans le cadre de mon BTS SIO SLAM, j'ai mis en place une veille technologique sur les cyberattaques dans le monde et l'&eacute;volution des menaces informatiques. Cette veille me permet de rester inform&eacute; sur les attaques r&eacute;centes, les ransomwares, le phishing, les failles critiques, l'utilisation malveillante de l'intelligence artificielle et les risques pour les organisations.
+                    </p>
+                    <p>
+                        J'ai choisi ce sujet car la cybers&eacute;curit&eacute; est directement li&eacute;e au d&eacute;veloppement d'applications : protection des donn&eacute;es, authentification, gestion des acc&egrave;s, sauvegardes, correction des vuln&eacute;rabilit&eacute;s et prise en compte des risques d&egrave;s la conception d'un service informatique.
+                    </p>
+                    <ul>
+                        <li>Recherche et suivi d'informations &agrave; partir de sources fiables et sp&eacute;cialis&eacute;es.</li>
+                        <li>Analyse des tendances : IA et cyberattaques, phishing avanc&eacute;, deepfakes, cyber-guerre et attaques contre les infrastructures critiques.</li>
+                        <li>Synth&egrave;se des impacts observ&eacute;s : arr&ecirc;t d'activit&eacute;, vol de donn&eacute;es, perte de confiance et co&ucirc;ts de rem&eacute;diation.</li>
+                        <li>Utilisation de flux publics, d'alertes et de sources institutionnelles pour suivre l'actualit&eacute; cybers&eacute;curit&eacute;.</li>
+                    </ul>
+
+                    <div class="evidence-grid">
+                        <figure class="screenshot-container">
+                            <img src="captures/veille-hero.svg" alt="Page d'accueil de la veille technologique">
+                            <figcaption class="screenshot-title">Pr&eacute;sentation du sujet de veille</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/veille-presentation-objectifs.svg" alt="Pr&eacute;sentation et objectifs de la veille">
+                            <figcaption class="screenshot-title">Pr&eacute;sentation de la veille et objectifs</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/veille-sources.svg" alt="Sources utilis&eacute;es pour la veille technologique">
+                            <figcaption class="screenshot-title">Sources utilis&eacute;es</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/veille-actualites.svg" alt="Actualit&eacute;s r&eacute;centes de cybers&eacute;curit&eacute;">
+                            <figcaption class="screenshot-title">Flux automatis&eacute;s d'actualit&eacute;s</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/veille-tendances.svg" alt="Tendances cybers&eacute;curit&eacute; 2026">
+                            <figcaption class="screenshot-title">Tendances cybers&eacute;curit&eacute; 2026</figcaption>
+                        </figure>
+                        <figure class="screenshot-container">
+                            <img src="captures/veille-impacts.svg" alt="Impacts observ&eacute;s et bilan de la veille">
+                            <figcaption class="screenshot-title">Impacts observ&eacute;s et bilan personnel</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="tech-details">
+                    <h4 style="color: var(--primary-color); margin-bottom: 1rem;">Comp&eacute;tences mobilis&eacute;es</h4>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Veille technologique</span>
+                        <span class="tech-tag">Cybers&eacute;curit&eacute;</span>
+                        <span class="tech-tag">Analyse de sources</span>
+                        <span class="tech-tag">Synth&egrave;se d'informations</span>
+                        <span class="tech-tag">D&eacute;veloppement professionnel</span>
+                        <span class="tech-tag">BTS SIO SLAM</span>
+                    </div>
+                    <div class="project-actions" style="margin-top: 1.5rem;">
+                        <a href="veille-technologique.html" class="btn">Ouvrir la page de veille</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Mon Portfolio. Tous droits r&eacute;serv&eacute;s.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

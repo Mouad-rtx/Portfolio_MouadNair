@@ -19,6 +19,8 @@
         .screenshot-container img { display: block; width: 100%; height: auto; background: white; border-radius: 4px; box-shadow: var(--shadow); }
         .screenshot-container.wide { grid-column: 1 / -1; }
         .screenshot-title { margin-top: 1rem; font-weight: 600; color: var(--primary-color); font-size: 0.95rem; }
+        .notice-box { background: #fff8e6; border-left: 4px solid #f59e0b; color: #5f4300; padding: 1rem; border-radius: 6px; margin-top: 1rem; line-height: 1.7; }
+        .project-actions { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 1rem; }
         @media (max-width: 900px) { .evidence-grid { grid-template-columns: 1fr; } .screenshot-container.wide { grid-column: auto; } }
     </style>
 </head>
@@ -65,6 +67,16 @@
                     <img src="captures/biorelais-responsable-factures.png" alt="Factures clients et producteurs consultables par le responsable Bio Relais">
                     <figcaption class="screenshot-title">Responsable : consultation des factures clients et producteurs</figcaption>
                 </figure>
+            </div>
+        </div>
+        <div class="tech-details project-only">
+            <h4>Ouvrir en local</h4>
+            <p>Ce projet est dynamique : il d&eacute;pend de PHP, de MySQL et d'une base de donn&eacute;es locale. En ligne, un lien <code>localhost</code> ne fonctionnerait pas pour les visiteurs, car <code>localhost</code> pointe toujours vers leur propre ordinateur.</p>
+            <div class="notice-box">
+                Pour le publier r&eacute;ellement, il faudra un h&eacute;bergement compatible PHP/MySQL, importer la base <code>biorelais</code>, puis adapter les identifiants de connexion &agrave; la base de donn&eacute;es.
+            </div>
+            <div class="project-actions">
+                <a href="http://localhost/biorelais-recup/" class="btn" target="_blank" rel="noopener noreferrer">Ouvrir en local</a>
             </div>
         </div>
         <div class="tech-details"><h4>Outils et notions utilisés</h4><div class="tech-stack"><span class="tech-tag">PHP Objet</span><span class="tech-tag">MVC</span><span class="tech-tag">MySQL</span><span class="tech-tag">CRUD</span><span class="tech-tag">Application locale</span></div></div>

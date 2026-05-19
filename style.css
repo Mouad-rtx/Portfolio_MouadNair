@@ -29,6 +29,14 @@ body {
     background-color: var(--bg-light);
 }
 
+.project-only {
+    display: none;
+}
+
+body.from-projects .project-only {
+    display: block;
+}
+
 /* ==================== HEADER ET NAVIGATION ==================== */
 header {
     background-color: var(--primary-color);

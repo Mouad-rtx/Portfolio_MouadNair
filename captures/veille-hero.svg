@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620">
+  <rect width="1280" height="620" fill="#f7f8fa"/>
+  <rect width="1280" height="76" fill="#1f2b3a"/>
+  <text x="96" y="48" font-family="Arial" font-size="28" font-weight="700" fill="#18b8a8">Portfolio</text>
+  <text x="900" y="45" font-family="Arial" font-size="16" font-weight="700" fill="#fff">Accueil</text>
+  <text x="980" y="45" font-family="Arial" font-size="16" font-weight="700" fill="#fff">Compétences</text>
+  <text x="1100" y="45" font-family="Arial" font-size="16" font-weight="700" fill="#18b8a8">Veille</text>
+  <rect x="96" y="144" width="250" height="34" rx="17" fill="#eefdfb" stroke="#18b8a8"/>
+  <text x="112" y="166" font-family="Arial" font-size="14" font-weight="700" fill="#122033">VEILLE TECHNOLOGIQUE BTS SIO SLAM</text>
+  <text x="96" y="250" font-family="Arial" font-size="50" font-weight="800" fill="#202a39">Cyberattaques dans le monde</text>
+  <text x="96" y="308" font-family="Arial" font-size="50" font-weight="800" fill="#202a39">et évolution des menaces</text>
+  <text x="96" y="366" font-family="Arial" font-size="50" font-weight="800" fill="#202a39">informatiques</text>
+  <text x="96" y="420" font-family="Arial" font-size="19" fill="#415066">Veille sur les attaques récentes, ransomwares, phishing, IA, cyber-guerre</text>
+  <rect x="96" y="470" width="170" height="52" rx="6" fill="#18b8a8"/>
+  <text x="125" y="503" font-family="Arial" font-size="17" font-weight="700" fill="#122033">Voir les actualités</text>
+  <rect x="840" y="168" width="320" height="320" rx="8" fill="#fff" stroke="#d9e2ec"/>
+  <rect x="840" y="168" width="5" height="320" fill="#18b8a8"/>
+  <circle cx="870" cy="198" r="6" fill="#18b8a8"/><circle cx="890" cy="198" r="6" fill="#18b8a8"/><circle cx="910" cy="198" r="6" fill="#18b8a8"/>
+  <text x="870" y="250" font-family="Arial" font-size="18" font-weight="700" fill="#122033">Flux surveillés</text>
+  <text x="1068" y="250" font-family="Arial" font-size="16" fill="#415066">10 sources</text>
+  <line x1="870" y1="276" x2="1130" y2="276" stroke="#d9e2ec"/>
+  <text x="870" y="318" font-family="Arial" font-size="18" font-weight="700" fill="#122033">Menaces suivies</text>
+  <text x="1020" y="318" font-family="Arial" font-size="16" fill="#415066">Ransomware, phishing, IA</text>
+  <line x1="870" y1="350" x2="1130" y2="350" stroke="#d9e2ec"/>
+  <rect x="870" y="392" width="240" height="10" rx="5" fill="#6fd0e9"/>
+  <rect x="870" y="420" width="210" height="10" rx="5" fill="#6bd3c7"/>
+  <rect x="870" y="448" width="260" height="10" rx="5" fill="#6fd0e9"/>
+</svg>
